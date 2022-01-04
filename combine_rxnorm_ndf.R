@@ -1,7 +1,9 @@
-source('load_rxnorm.R')
 source('load_ndf.R')
 
-rx <- load_rxnorm('RXNSAT.RRF', 'RXNCONSO.RRF')
+# source('load_rxnorm.R')
+# rx <- load_rxnorm('RXNSAT.RRF', 'RXNCONSO.RRF')
+## rather than load from single RXNORM data set, use `rxnorm_ndc.R` script
+rx <- read.csv('ndc_gs_xwalk.csv')
 ndf <- load_ndf('PharmacyProductSystem_NationalDrugCodeExtract.xlsx')
 
 # 10-digit vs 11-digit
@@ -85,32 +87,6 @@ diffs2 <- function(x, y) {
 }
 
 ## step 1: deduplicate data set
-
-badnames <- data.frame(ndc = c('51655002852','143149501','99900153314','49884018601','51655012052','24515006','185060510','49884004801','42987011014'),
-  badname = c('cefadroxil','pyridoxine','catherization set','hydrochlorothiazide','erythromycin','rasburicase','chlordiazepoxide','isoxsuprine','brevicon')
-)
-# a few are still questionable?
-# 51655012052      erythromycin es tab Xmg                                         glimepiride tab Xmg 0.3655753
-# 49884004801      hcl isoxsuprine tab Xmg                           cap dexmethylphenidate hcl sa Xmg 0.4085831
-#   185060510 cap chlordiazepoxide hcl Xmg                                          lisinopril tab Xmg 0.4126984
-#    24515006    inj ml rasburicase X. Xmg                       camphor liquid phenol top X. X. X% X% 0.4
-badrow <- numeric(nrow(badnames))
-for(i in seq_along(badrow)) {
-  badrow[i] <- which(rx[,'ndc'] == badnames[i,'ndc'] & grepl(badnames[i,'badname'], rx[,'drug']))
-}
-rx <- rx[-badrow,]
-
-d7 <- find_dup(rx)
-x <- unique(d7[,'ndc'])
-nx <- length(x)
-
-badrow <- numeric(nx)
-for(i in seq_along(badrow)) {
-  ix <- which(rx[,'ndc'] == x[i])
-  # remove smaller drug name
-  badrow[i] <- ix[which.min(nchar(rx[ix,'drug']))]
-}
-rx <- rx[-badrow,]
 
 ## no more duplicates
 find_dup(rx)
