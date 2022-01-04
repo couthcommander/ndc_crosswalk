@@ -8,7 +8,7 @@ stdz_drug <- function(x) {
   tolower(x)
 }
 
-load_ndf <- function(ndc_file, suppress = FALSE) {
+load_ndf <- function(ndc_file) {
   z <- readxl::read_excel(ndc_file, col_types = 'text')
   class(z) <- 'data.frame'
   z1 <- z[,c('NATIONAL_FORMULARY_NAME', 'GENERIC_NAME', 'VA_PRODUCT_NAME', 'VA_CLASSIFICATION_CODE', 'VA_CLASSIFICATION_DESCRIPTION', 'NDC_NUMBER')]

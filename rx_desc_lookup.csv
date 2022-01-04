@@ -1,0 +1,642 @@
+rxname,desc
+benazepril,ace inhibitor
+lisinopril,ace inhibitor
+isotretinoin,acne
+naltrexone,addiction
+silicon dioxide,additive
+durapore,adhesive
+rayon,adhesive
+"tape,scanpor",adhesive
+"tape,waterproof",adhesive
+adhesive remover,adhesive remover
+detachol,adhesive remover
+"alcohol,absolute",alcohol
+"alcohol,ethyl","alcohol, sanitizer"
+diphenhydramine,allergy
+epinephrine,allergy
+generix t,allergy
+hydroxyzine,allergy
+triamcinolone,allergy
+dextromethorphan,"allergy, cold"
+phenylephrine,"allergy, hemorrhoid"
+doxylamine,"allergy, nausea"
+phenyltoloxamine,"allergy, pain relief"
+phenyltolxamine,"allergy, pain relief"
+promethazine,"allergy, pain relief"
+aminosyn,amino acids
+clinimix,amino acids
+bupivacaine,anesthetic
+etomidate,anesthetic
+menthol 1.4% patch,anesthetic
+menthol 2% gel,anesthetic
+methohexital,anesthetic
+phenol \(dilute\) 1.4%,anesthetic
+phenol 1.4%,anesthetic
+phentermine,anorectic
+al glycinate,antacid
+al oh,antacid
+aluminum hydroxide,antacid
+famotidine,antacid
+lansoprazole,antacid
+magnesium carbonate,antacid
+magnesium gluconate,antacid
+mg carb,antacid
+omeprazole,antacid
+sodium bicarbonate,antacid
+indomethacin,anti-inflammation
+interferon beta-1b,anti-inflammation
+salsalate,anti-inflammation
+bicalutamide,antiandrogen
+adenosine,antiarrhythmic
+amiodarone,antiarrhythmic
+procainamide,antiarrhythmic
+propafenone,antiarrhythmic
+quinidine,antiarrhythmic
+lidocaine,"antiarrhythmic, anesthetic"
+oxytetracycline,antibacterial
+pyrithione,antibacterial
+pyrithone,antibacterial
+azithromycin,antibiotic
+bacitracin,antibiotic
+cefadroxil,antibiotic
+cefotaxime,antibiotic
+ceftazidime,antibiotic
+cephalexin,antibiotic
+clindamycin,antibiotic
+cloxacillin,antibiotic
+doxycycline,antibiotic
+erythromycin,antibiotic
+gentamicin,antibiotic
+minocycline,antibiotic
+moxifloxacin,antibiotic
+nafcillin na,antibiotic
+penicillin,antibiotic
+polymyx,antibiotic
+polymyxin,antibiotic
+sulfamethizole,antibiotic
+sulfamethoxazole,antibiotic
+telavancin,antibiotic
+televancin,antibiotic
+tobramycin,antibiotic
+glycopyrrolate,anticholinergic
+heparin,anticoagulant
+lamotrigine,anticonvulsant
+levetiracetam,anticonvulsant
+phenytoin,anticonvulsant
+valproate,anticonvulsant
+valproic,anticonvulsant
+phenobarbital,"anticonvulsant, cramping"
+amitriptyline,antidepressant
+bupropion,antidepressant
+clomipramine,antidepressant
+desvenlafaxine,antidepressant
+mirtazapine,antidepressant
+tranylcypromine,antidepressant
+venlafaxine,antidepressant
+wellbutrin,antidepressant
+desmopressin,antidiuretic
+chlorpropamide,antidm
+glimepiride,antidm
+glyburide,antidm
+metformin,antidm
+tolazamide,antidm
+metoclopramide,antiemetic
+ondansetron,antiemetic
+scopolamine,antiemetic
+antifungal,antifungal
+miconazole,antifungal
+terbinafine,antifungal
+ting pwdr,antifungal
+undecylenic,antifungal
+silver nitrate,antiinfective
+spirulina,antioxidant
+zeaxanthin,antioxidant
+aluminum chloride,antiperspirant
+aluminum cl hexahydrate,antiperspirant
+aluminum hydroxychloride,antiperspirant
+haloperidol,antipsych
+lithium,antipsych
+thioridazine,antipsych
+antiseptic,antiseptic
+cadexomer,antiseptic
+povidone,antiseptic
+povidone iodine,antiseptic
+phenylmecuric,"antiseptic, antifungal"
+phenylmercuric,"antiseptic, antifungal"
+chlordiazepoxide,anxiety
+diazepam,"anxiety, sedative"
+losartan,arb inhibitor
+aspirin,aspirin
+flunisolide,asthma
+theophylline,asthma
+etanercept,autoimmune
+band-aid,barrier
+bandage,barrier
+barrier,barrier
+convex insert,barrier
+dermagran,barrier
+dressing,barrier
+gauze pad,barrier
+honey wound,barrier
+sensi-care,barrier
+skin prep aerosol,barrier
+skin prep liquid,barrier
+skin prep swab,barrier
+"sponge,nonwoven",barrier
+telfa pad,barrier
+lambs wool,bed sores
+lambs-wool,bed sores
+labetalol,beta blocker
+propranolol,beta blocker
+altavera,birth control
+balziva,birth control
+beyaz,birth control
+brevicon,birth control
+camila,birth control
+cyclafem,birth control
+cyclessa,birth control
+dasetta,birth control
+drospirenone,birth control
+errin,birth control
+estarylla,birth control
+estrostep,birth control
+etonogestrel,birth control
+generess,birth control
+jolivette,birth control
+junel,birth control
+loestrin,birth control
+marzia,birth control
+nonoxynol,birth control
+nor-qd,birth control
+nora-be,birth control
+norelgestromin,birth control
+norgestimate,birth control
+norinyl,birth control
+nuvaring,birth control
+ogestrel,birth control
+ortho evra,birth control
+ortho-novum,birth control
+ovcon,birth control
+ovral,birth control
+rajani,birth control
+sponyx,birth control
+sprintec,birth control
+sronyx,birth control
+tilia,birth control
+tri-cyclen,birth control
+trinessa,birth control
+zovia,birth control
+prothrombin,blood clotter
+anti-embolism,blood flow
+clopidogrel,blood thinner
+dipyridamole,blood thinner
+botulinum,botox
+onabotulinumtoxina,botox
+rimabotulinumtoxinb,botox
+midodrine,bp
+phenoxybenzamine,bp
+diltiazem,"bp, ca channel blocker"
+verapamil,"bp, ca channel blocker"
+fluticasone,breathing
+clevidepine,ca channel blocker
+clevidipine,ca channel blocker
+nifedipine,ca channel blocker
+"bcg,tice",cancer
+bortezomib,cancer
+cemiplimab,cancer
+cisplatin,cancer
+docetaxel,cancer
+doxorubicin,cancer
+gemcitabine,cancer
+oxaliplatin,cancer
+paclitaxel,cancer
+selinexor,cancer
+sunitinib,cancer
+thiotepa,cancer
+topotecan,cancer
+prevident,cavities
+fenofibrate,cholesterol
+niacin,cholesterol
+niaspan,cholesterol
+aloe vesta,"cleanser, antifungal"
+attends washcloth,cleanser
+baby shampoo,cleanser
+bedside-care cleanser,cleanser
+"cleanser,saf-clens",cleanser
+"cleanser,skin",cleanser
+cleansing cloth,cleanser
+cleansing foam,cleanser
+cleansing shampoo,cleanser
+no-rinse shampoo,cleanser
+papain,cleanser
+perineal skin cleanser,cleanser
+progaine,cleanser
+sodium hydroxide,cleanser
+boric acid,"cleanser, eye wash"
+rasburicase,clear uric acid
+guaifenesin,cold
+condom,condom
+hyoscyamine,cramping
+pseudefed,decongestant
+pseudoephedrine,decongestant
+infusion high-flow,device
+lactase,digest lactose
+furosemide,diuretic
+hydrochlorothiazide,diuretic
+mannitol,diuretic
+torsemide,diuretic
+trichlormethiazide,diuretic
+chlorthalidone,"diuretic, bp"
+metolazone,"diuretic, bp"
+douche,douche
+carboxymethylcellulose,dry eye
+hypromellose,dry eye
+methyclellulos,dry eye
+methylcellulos,dry eye
+methylcellulose,dry eye
+polyvinyl,dry eye
+propylene glycol,dry eye
+tears naturale,dry eye
+breezee,dry feet
+benzalkonium,ear infection
+parachlorometoxylenol,ear infection
+alfuzosin,enlarged prostrate
+topiramate,epilepsy
+salicylic acid,"exfoliant, skin irritation"
+naphazoline,eye decongestant
+tetrahydrozoline,eye decongestant
+atropine so4,eye dilation
+ranibizumab,eye disease
+mercuric oxide,eye infection
+timolol hemihydrate,eye pressure
+timolol maleate,eye pressure
+herbal vision care,eye vitamins
+icaps areds,eye vitamins
+ocuvite,eye vitamins
+eye-stream,eye wash
+irrigating eye,eye wash
+"mask,procedure",facemask
+warming mask,facemask
+ibuprofen,fever
+oseltamivir,flu
+charcoal 260mg,gas relief
+"charcoal,activated",gas relief
+galactisidase,gas relief
+galactosidase,gas relief
+simethicone,gas relief
+leuprolide acetate,gonatropin hormone
+somatrem,growth hormone
+somatropin,growth hormone
+juven,healing supplement
+hemorrhoidal,hemorrhoid
+hydrocortisone,"hemorrhoid, steroid"
+activella,hormone-F
+amabelz,hormone-F
+lopreeza,hormone-F
+mimvey,hormone-F
+progesterone,hormone-F
+estradiol,"hormone-F, birth control"
+levlen,"hormone-F, birth control"
+micronor,"hormone-F, birth control"
+necon,"hormone-F, birth control"
+norethindrone,"hormone-F, birth control"
+norg-ee,"hormone-F, birth control"
+norgestrel,"hormone-F, birth control"
+nortrel,"hormone-F, birth control"
+testosterone,hormone-M
+levothyroxine,hyperthyroidism
+liotrix,hyperthyroidism
+dextrose 24gm,hypoglycemia
+dextrose 40%,hypoglycemia
+dextrose 5%,hypoglycemia
+dextrose 50%,"hypoglycemia, antibiotic, laxative"
+tolvaptan,hyponatremia
+globulin,immunodeficiency
+"globulin,immune",immunodeficiency
+mycophenolate,immunosuppressive
+mycophenolic,immunosuppressive
+appliance deodorant,incontinence
+"bag,drainage",incontinence
+"bag,leg",incontinence
+"brief,prevail",incontinence
+"brief,xx-large",incontinence
+carrington odor eliminator,incontinence
+cath-secure,incontinence
+cath'n sleeve,incontinence
+catherization,incontinence
+catheter,incontinence
+cunningham clamp,incontinence
+depend adjustable,incontinence
+depend belted shields,incontinence
+depend refastenable,incontinence
+depend undergarment,incontinence
+dignity,incontinence
+drain tube,incontinence
+foley cath tray,incontinence
+incont liner,incontinence
+incontinence,incontinence
+irrigation,incontinence
+irrigator,incontinence
+"liner,securely yours",incontinence
+ostomy,incontinence
+peri-wash,incontinence
+poise pad,incontinence
+poise pad,incontinence
+"pouch,drainable",incontinence
+retracted penis,incontinence
+"sponge,drain",incontinence
+surfit,incontinence
+"underpad,bed",incontinence
+urinary drainage,incontinence
+urostomy,incontinence
+vaginal weights,incontinence
+wound collector,incontinence
+"barrier,ostomy","incontinence, barrier"
+coloplast,"incontinence, barrier"
+proshield plus,"incontinence, barrier"
+clomiphene,infertility
+"set,infusion",infusion
+aerochamber,inhaler
+temazepam,insomnia
+"cartridge,disetronic",insulin
+glargine,insulin
+glulisine,insulin
+insulin,insulin
+magni-guide,insulin
+doxercalciferol,kidney disease
+phosphorus 250mg,kidney stones
+phosphourus 250mg,kidney stones
+bisacodyl,laxative
+castile soap enema,laxative
+castor oil,laxative
+docusate,laxative
+glycerin \(adult\) supp,laxative
+karaya,laxative
+milk of magnesia,laxative
+"mineral oil,extra heavy",laxative
+"mineral oil,heavy",laxative
+"mineral oil,light",laxative
+mineral oil emulsion,laxative
+mucilloid,laxative
+nulytely,laxative
+psyllium,laxative
+sodium phosphate mono,laxative
+polyethylene glycol,"laxative, moisturizer"
+hydroquinone,"lighten skin, sunscreen"
+cetylpyridinium,lozenge
+lozenge,lozenge
+lubricating jelly,lubricant
+acetylcysteine,lung disease
+protease,malabsorption
+rizatriptan,migraines
+sumatriptan,migraines
+electrolyte,minerals
+electrolytes,minerals
+magnesium 64mg,minerals
+magnesium 70mg,minerals
+magnesium chloride,minerals
+potassium chloride,minerals
+sodium chloride,"minerals, eye wash"
+absorbase,moisturizer
+aquabase,moisturizer
+bath oil,moisturizer
+biafine,moisturizer
+cetaphil,moisturizer
+derma,moisturizer
+dermabase,moisturizer
+dimethicone,moisturizer
+eucerin,moisturizer
+fattibase,moisturizer
+gentle cream,moisturizer
+geri soft,moisturizer
+hydrocerin,moisturizer
+hydrophilic,moisturizer
+hydrophor,moisturizer
+keri lotion,moisturizer
+kerodex,moisturizer
+lanolin,moisturizer
+moisturizer,moisturizer
+moisturizing,moisturizer
+petrolatum,moisturizer
+therapeutic bath lotion,moisturizer
+vanicream,"moisturizer, sunscreen"
+methocarbamol,muscle relaxant
+ascorbic acid,nutritional supplement
+blue green algae,nutritional supplement
+boost breeze,nutritional supplement
+boost diabetic,nutritional supplement
+boost glucose control,nutritional supplement
+boost high protein,nutritional supplement
+boost liquid,nutritional supplement
+boost plus,nutritional supplement
+boost w/fiber,nutritional supplement
+calcitriol,nutritional supplement
+calcium,nutritional supplement
+cardiotex,nutritional supplement
+centrum,nutritional supplement
+cerefolin,nutritional supplement
+certagen,nutritional supplement
+cholecalciferol,nutritional supplement
+cholinoid,nutritional supplement
+complete tab,nutritional supplement
+complex w/vit,nutritional supplement
+"connector,y-port",nutritional supplement
+curcuma,nutritional supplement
+cyanocobalamin,nutritional supplement
+dialyvite,nutritional supplement
+ensure,nutritional supplement
+ethyl esters,nutritional supplement
+fat emulsion,nutritional supplement
+fe fumarate,nutritional supplement
+feeding bag,nutritional supplement
+ferrous so4,nutritional supplement
+fiber liquid,nutritional supplement
+fish oil,nutritional supplement
+folic acid,nutritional supplement
+free amino acid diet,nutritional supplement
+fruity chews,nutritional supplement
+gen-bee,nutritional supplement
+glucerna,nutritional supplement
+glucose 30gm,nutritional supplement
+glucose 4gm tab,nutritional supplement
+glytrol,nutritional supplement
+herbal b,nutritional supplement
+herbal gi,nutritional supplement
+hexavitamin,nutritional supplement
+hi-cal liquid,nutritional supplement
+hyperlyte,nutritional supplement
+iron dextran,nutritional supplement
+jevity,nutritional supplement
+kangaroo pump set,nutritional supplement
+lipogen,nutritional supplement
+liquacel,nutritional supplement
+liquid hope,nutritional supplement
+macuvite,nutritional supplement
+meritene,nutritional supplement
+methylcobalamin,nutritional supplement
+mononitrate,nutritional supplement
+multivit,nutritional supplement
+multivitamin,nutritional supplement
+multivitamins,nutritional supplement
+multivitamns,nutritional supplement
+multivits,nutritional supplement
+neocate,nutritional supplement
+nephro-vite,nutritional supplement
+nephrocaps,nutritional supplement
+nepro,nutritional supplement
+novasource,nutritional supplement
+nutren,nutritional supplement
+osmolite,nutritional supplement
+peptamen,nutritional supplement
+polysaccharide complex,nutritional supplement
+polyunsaturated fatty acids,nutritional supplement
+prenatal-s,nutritional supplement
+prenatal tab,nutritional supplement
+pro-stat \(sf\),nutritional supplement
+pro-stat awc,nutritional supplement
+pro-stat 64,nutritional supplement
+promod,nutritional supplement
+promote,nutritional supplement
+renal caps,nutritional supplement
+replete liquid,nutritional supplement
+resource,nutritional supplement
+sodium acetate,nutritional supplement
+stress formula,nutritional supplement
+stresstabs,nutritional supplement
+sumalate,nutritional supplement
+supplement,nutritional supplement
+surbex,nutritional supplement
+surbu-gen-t,nutritional supplement
+syrvite,nutritional supplement
+thiamine,nutritional supplement
+tocopheryl,nutritional supplement
+tolerex,nutritional supplement
+tube feeding,nutritional supplement
+vit a 1500unt,nutritional supplement
+vital 1.5 cal,nutritional supplement
+vital high nitrogen,nutritional supplement
+vital peptide,nutritional supplement
+vitamin,nutritional supplement
+vitamins,nutritional supplement
+vivonex,nutritional supplement
+zinc 50mg,nutritional supplement
+zinc gluconate,nutritional supplement
+zinc so4,nutritional supplement
+pyridoxine,"nutritional supplement, nausea"
+cod liver oil,"nutritional supplement, skin irritation"
+naloxone,opioid overdose
+risedronate,osteoporosis
+teriparatide,osteoporosis
+contact lens,other
+acetaminophen,pain relief
+capsacian,pain relief
+capsaicin,pain relief
+hydromorphone,pain relief
+ketorolac,pain relief
+meperidine,pain relief
+methadone,pain relief
+methyl salicylate,pain relief
+morphine,pain relief
+naproxen,pain relief
+opium 10% tincture,pain relief
+oxycodone,pain relief
+propoxyphene,pain relief
+tramadol,pain relief
+pramipexole dihydrochloride,parkinsons
+acidophilus,probiotic
+fructooligosaccharides,probiotic
+lactobacillus,probiotic
+probiotic,probiotic
+ixekizumab,psoriasis
+technetium,radiopharmaceutical
+technetum,radiopharmaceutical
+m-trace,replacement fluids
+multiple trace element,replacement fluids
+multiple trace elements,replacement fluids
+prismasol,replacement fluids
+selenomethionine,replacement fluids
+"trace elements,adult",replacement fluids
+"trace elements,pediatric",replacement fluids
+sanitizer,sanitizer
+"talc,sterile",sclerosing
+butabarbital,sedative
+dexmedetomidine,sedative
+midazolam,sedative
+magnesium so4,seizures
+"soap bar,sensitive skin",sensitive skin
+oxymetazoline,sinus
+sinus rinse,sinus
+aminobenzoic,skin irritation
+aquaphor,skin irritation
+calamine,skin irritation
+camphor,skin irritation
+coal tar,skin irritation
+cold cream,skin irritation
+corn starch,skin irritation
+domol bath,skin irritation
+hamamelis,skin irritation
+lanolin,skin irritation
+lubriderm,skin irritation
+mexsana,skin irritation
+moisturel,skin irritation
+"oatmeal,colloidal",skin irritation
+triclosan,skin irritation
+urea 40%,skin irritation
+witch hazel,skin irritation
+zinc oxide,skin irritation
+nicotine,smoking
+atorvastatin,statin
+methylprednisolone,steroid
+prednisone,steroid
+dexmethylphenidate,stimulant
+dextroamphetamine,stimulant
+avobenzone,sunscreen
+dioxybenzone,sunscreen
+oxybenzone,sunscreen
+sunscreen,sunscreen
+suppository base,"suppository, moisturizer"
+beractant,surfactant
+maltodextrin,sweetener
+syringe 1ml/ndl,syringe
+syringe 2.5-3ml/ndl 22g 1in,syringe
+syringe 50-60ml,syringe
+syringe 60ml eccentric tip,syringe
+syringe toomey 60ml,syringe
+\(glucose\) test,test-glucose
+ascensia,test-glucose
+contour,test-glucose
+disposable needle,test-glucose
+freestyle,test-glucose
+glucometer,test-glucose
+"lancet,abbott",test-glucose
+"lancet,unilet",test-glucose
+medisense,test-glucose
+needle disposable,test-glucose
+needle disposal,test-glucose
+"needle,pen",test-glucose
+sof-tact,test-glucose
+trueplus,test-glucose
+ketone,test-ketone
+romiplastim,thrombocytopenia
+romiplostim,thrombocytopenia
+sodium fluoride,tooth decay
+trach tube,trach tube
+influenza,vaccine-flu
+hepatitis a,vaccine-hepa
+haemophilus,vaccine-hib
+pedvax,vaccine-hib
+meningococcal,vaccine-meningitis
+meningococcal polysaccharide,vaccine-meningitis
+menomune,vaccine-meningitis
+rotavirus pentavalent,vaccine-rotavirus
+rotavirus tetravalent,vaccine-rotavirus
+theracys,vaccine-tb
+pertuss,vaccine-tdap
+cilostazol,vasodilator
+epoprostenol,vasodilator
+isoxsuprine,vasodilator
+nitroglycerin,vasodilator
+tadalafil,vasodilator
+kunecatechins,warts
+podophyllin,warts
+sinecatechins,warts

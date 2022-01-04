@@ -11,20 +11,22 @@ stdz_drug <- function(x) {
 # `match` returns first match
 # name often has multiple options matching rxcui
 
-load_rxnorm <- function(sat_file, conso_file, suppress = FALSE) {
+load_rxnorm <- function(sat_file, conso_file, version = 1) {
   sat <- fread(sat_file, sep='|', quote = '')
   sat <- sat[, .(V1, V4, V9, V10, V11, V12)]
   setnames(sat, c('RXCUI','RXAUI','ATN','SAB','ATV','SUPPRESS'))
-  if(suppress) {
-    sat <- sat[SAB == 'VANDF' & SUPPRESS == 'N']
-  } else {
-    sat <- sat[SAB == 'VANDF']
-  }
+  sat <- sat[SAB == 'VANDF']
   rxcui <- unique(sat[['RXAUI']])
-  nameOpt <- sat[ATN == 'NF_NAME']
-  gnrcOpt <- sat[ATN == 'VA_GENERIC_NAME']
-  clssOpt <- sat[ATN == 'VA_CLASS_NAME']
-  ndcCode <- unique(sat[ATN == 'NDC', .(RXAUI, ATV)])
+  if(version == 1) {
+    nameOpt <- sat[ATN == 'NF_NAME']
+    gnrcOpt <- sat[ATN == 'VA_GENERIC_NAME']
+    clssOpt <- sat[ATN == 'VA_CLASS_NAME']
+    ndcCode <- unique(sat[ATN == 'NDC', .(RXAUI, ATV,SUPPRESS)])
+  } else if(version == 2) {
+    nameOpt <- sat[ATN == 'TRN']
+    gnrcOpt <- sat[ATN == 'PRN']
+    clssOpt <- sat[ATN == 'VMO'] #or VAC?
+  }
   setnames(ndcCode, 'ATV', 'NDC')
   name <- nameOpt[match(rxcui, nameOpt[['RXAUI']]), ATV]
   gnrc <- gnrcOpt[match(rxcui, gnrcOpt[['RXAUI']]), ATV]
@@ -41,7 +43,12 @@ load_rxnorm <- function(sat_file, conso_file, suppress = FALSE) {
   dat <- merge(res, ndcCode)
   dat[,'ndc'] <- stdz_ndc(dat[,'NDC'])
   dat[,'drug'] <- stdz_drug(dat[,'STR']) # NF_NAME, VA_GENERIC_NAME, STR
-  dat <- unique(dat[order(dat[,'ndc']),c('ndc','drug')])
+  dat <- unique(dat[order(dat[,'ndc']),c('ndc','drug','SUPPRESS')])
+# Suppressible flag. Values = N, O, Y, or E.
+# N - not suppressible.
+# O - Specific individual names (atoms) set as Obsolete because the name is no longer provided by the original source.
+# Y - Suppressed by RxNorm editor.
+# E - unquantified, non-prescribable drug with related quantified, prescribable drugs.
   row.names(dat) <- NULL
   dat
 }
