@@ -37,9 +37,12 @@ stdz_drug <- function(x) {
   tolower(x)
 }
 
-bigWord <- function(x) {
+bigWord <- function(x, exclude = TRUE) {
+  badWords <- c('injection','intravenous','disposable','capsule','chewable','intraven','solution')
+  if(!exclude) badWords <- c()
   vapply(strsplit(x, "\\s|,|/|\\(|\\)|-"), function(i) {
-    i[order(nchar(i), decreasing = TRUE)[1]]
+    i <- setdiff(i, badWords)
+    i[which.max(nchar(i))]
   }, character(1))
 }
 
@@ -54,7 +57,8 @@ writeTable <- function(db, table, dat, ...) {
 deleteSource <- function(db, table, src) {
   ts <- DBI::dbListTables(db)
   if(!(table %in% ts)) {
-    stop('table not found')
+    warning('table not found')
+    return(NULL)
   }
   if(grepl('[^-0-9]', src)) {
     stop('src should be YYYY-MM-DD format')
@@ -129,17 +133,17 @@ datQry <- function(db, qry) {
 # `match` returns first match
 # name often has multiple options matching rxcui
 
-load_rxnorm <- function(sat_file, conso_file, version = 1) {
+load_rxnorm <- function(sat_file, conso_file, version = 1, src = 'VANDF') {
   sat <- fread(sat_file, sep='|', quote = '')
   sat <- sat[, .(V1, V4, V9, V10, V11, V12)]
   setnames(sat, c('RXCUI','RXAUI','ATN','SAB','ATV','SUPPRESS'))
-  sat <- sat[SAB == 'VANDF']
+  sat <- sat[SAB %in% src]
   rxcui <- unique(sat[['RXAUI']])
   if(version == 1) {
     nameOpt <- sat[ATN == 'NF_NAME']
     gnrcOpt <- sat[ATN == 'VA_GENERIC_NAME']
     clssOpt <- sat[ATN == 'VA_CLASS_NAME']
-    ndcCode <- unique(sat[ATN == 'NDC', .(RXAUI, ATV,SUPPRESS)])
+    ndcCode <- unique(sat[ATN == 'NDC', .(RXAUI, ATV, SUPPRESS, SAB)])
   } else if(version == 2) {
     nameOpt <- sat[ATN == 'TRN']
     gnrcOpt <- sat[ATN == 'PRN']
@@ -153,7 +157,7 @@ load_rxnorm <- function(sat_file, conso_file, version = 1) {
   conso <- fread(conso_file, sep='|', quote = '')
   conso <- conso[, .(V1, V8, V12, V15)]
   setnames(conso, c('RXCUI','RXAUI','SAB','STR'))
-  strOpt <- conso[SAB == 'VANDF']
+  strOpt <- conso[SAB %in% src]
 #   strOpt <- conso[SAB == 'RXNORM']
   str <- strOpt[match(rxcui, strOpt[['RXAUI']]), STR]
 
@@ -161,7 +165,7 @@ load_rxnorm <- function(sat_file, conso_file, version = 1) {
   dat <- merge(res, ndcCode)
   dat[,'ndc'] <- stdz_ndc(dat[,'NDC'])
   dat[,'drug'] <- stdz_drug(dat[,'STR']) # NF_NAME, VA_GENERIC_NAME, STR
-  dat <- unique(dat[order(dat[,'ndc']),c('ndc','drug','SUPPRESS')])
+  dat <- unique(dat[order(dat[,'ndc']),c('ndc','drug','SAB','SUPPRESS')])
 # Suppressible flag. Values = N, O, Y, or E.
 # N - not suppressible.
 # O - Specific individual names (atoms) set as Obsolete because the name is no longer provided by the original source.
@@ -171,7 +175,7 @@ load_rxnorm <- function(sat_file, conso_file, version = 1) {
   dat
 }
 
-get <- function(zipfile) {
+get <- function(zipfile, ...) {
   td <- tempdir()
   unzip(zipfile, exdir = td)
   if('rrf' %in% list.files(td)) {
@@ -179,7 +183,7 @@ get <- function(zipfile) {
   } else {
     wd <- td
   }
-  dat <- load_rxnorm(file.path(wd, 'RXNSAT.RRF'), file.path(wd, 'RXNCONSO.RRF'))
+  dat <- load_rxnorm(file.path(wd, 'RXNSAT.RRF'), file.path(wd, 'RXNCONSO.RRF'), ...)
   unlink(td, recursive = TRUE)
   dat
 }
@@ -190,7 +194,7 @@ save2db <- function(path, rawTable, dbc) {
   names(zips) <- fd
   dats <- zips[order(fd)]
   for(i in seq_along(dats)) {
-    dat <- get(file.path(path, dats[[i]]))
+    dat <- get(file.path(path, dats[[i]]), src = c('VANDF','NDDF'))
     src <- names(dats)[i]
     dat <- cbind(dat, src = src)
     deleteSource(dbc, rawTable, src)
@@ -244,11 +248,13 @@ snp <- function(x) {
   paste(sort(x), collapse = ' ')
 }
 
+tDrug <- function(name) {
+  vapply(strsplit(stdzdrug(name), '[ /,;]+'), snp, character(1))
+}
+
 diffs <- function(x, y) {
-  xd <- stdzdrug(x[,'drug'])
-  yd <- stdzdrug(y[,'drug'])
-  xd <- vapply(strsplit(xd, '[ /,;]+'), snp, character(1))
-  yd <- vapply(strsplit(yd, '[ /,;]+'), snp, character(1))
+  xd <- tDrug(x[,'drug'])
+  yd <- tDrug(y[,'drug'])
   ix <- match(x[,'ndc'], y[,'ndc'])
   sd <- stringdist::stringdist(xd, yd[ix], method = 'jw')
   fix <- which(sd > 0)
@@ -274,17 +280,17 @@ checkdup <- function(dat) {
 diffByLabel <- function(x, labels) {
   # `x` should have "d1" and "d2"
   a <- x
-  a[,c('label1','label2')] <- NA_character_
-  nrowA <- nrow(a)
   nrowL <- nrow(labels)
   # `labels` should have "rxname" and "desc"
-  commonCombos <- c('moisturizer, skin irritation', 'decongestant, pain relief', 'allergy, skin irritation',
+  commonCombos <- c('moisturizer, skin irritation', 'decongestant, pain relief',
+  'allergy, fever', 'allergy, skin irritation', 'pain relief, anesthetic', 'allergy, anesthetic',
   'nutritional supplement, minerals', 'nutritional supplement, eye vitamins', 'nutritional supplement, moisturizer',
-  'nutritional supplement, antioxidant', 'nutritional supplement, probiotic',
+  'nutritional supplement, antioxidant', 'nutritional supplement, probiotic', 'nutritional supplement, tooth decay',
   'ace inhibitor, diuretic', 'laxative, minerals', 'laxative, incontinence', 'dry eye, probiotic',
   'vaccine-hib, vaccine-hepb, vaccine-meningitis', 'skin irritation, hemorrhoid',
   'antacid, aspirin', 'antacid, gas relief', 'barrier, moisturizer', 'barrier, antiseptic',
-  'syringe, incontinence', 'syringe, insulin'
+  'syringe, incontinence', 'syringe, insulin', 'smoking, lozenge', 'decongestant, antiemetic',
+  'moisturizer, skin irritation, nutritional supplement', 'diuretic, incontinence', 'pain relief, aspirin'
   )
   ud <- sort(c(unique(labels[,'desc']), commonCombos))
   combos <- grep(',', ud)
@@ -304,15 +310,69 @@ diffByLabel <- function(x, labels) {
     inCombo(x)[1]
   }
   dco <- match(labels[,'desc'], ud)
-  m <- matrix(0, nrowA*2, length(ud))
+  dnames <- sort(union(a[,'d1'], a[,'d2']))
+  lud <- length(dnames)
+  m <- matrix(0, lud, length(ud))
+  # special cases
+  # combo drugs to ignore individual usage
+  case_dext <- which(labels[,'rxname'] == 'dextrose')
+  case_calc <- which(labels[,'rxname'] == 'calcium')
+  case_ingr <- which(labels[,'desc'] == 'ingredient')
+  case_prep <- which(labels[,'desc'] == 'med prep')
+  case_nvit <- grep('vitamin', labels[,'rxname'])
+  m_has_dextrose <- logical(lud)
+  m_has_calcium <- logical(lud)
+  m_has_ingr <- logical(lud)
+  m_has_prep <- logical(lud)
+  m_has_nvit <- logical(lud)
   src <- sprintf("%s([^a-zA-Z]|$)", labels[,'rxname'])
   for(i in seq(nrowL)) {
-    i1 <- grep(src[i], a[,'d1'])
-    i2 <- grep(src[i], a[,'d2'])
-    m[i1, dco[i]] <- 1
-    m[nrowA + i2, dco[i]] <- 1
+    ii <- grep(src[i], dnames)
+    m[ii, dco[i]] <- 1
+    if(i == case_dext) {
+      m_has_dextrose[ii] <- TRUE
+    }
+    if(i == case_calc) {
+      m_has_calcium[ii] <- TRUE
+    }
+    if(i %in% case_ingr) {
+      m_has_ingr[ii] <- TRUE
+    }
+    if(i %in% case_prep) {
+      m_has_prep[ii] <- TRUE
+    }
+    if(i %in% case_nvit) {
+      m_has_nvit[ii] <- TRUE
+    }
   }
   ix <- which(rowSums(m) > 1)
+  # remove dextrose combo
+  if(sum(m_has_dextrose) > 0) {
+    m[intersect(which(m_has_dextrose), ix), dco[case_dext]] <- 0
+    ix <- which(rowSums(m) > 1)
+  }
+  # remove calcium combo
+  if(sum(m_has_calcium) > 0) {
+    m[intersect(which(m_has_calcium), ix), dco[case_calc]] <- 0
+    ix <- which(rowSums(m) > 1)
+  }
+  # remove ingredient combo
+  if(sum(m_has_ingr) > 0) {
+    m[intersect(which(m_has_ingr), ix), unique(dco[case_ingr])] <- 0
+    ix <- which(rowSums(m) > 1)
+  }
+  # remove med prep combo
+  if(sum(m_has_prep) > 0) {
+    m[intersect(which(m_has_prep), ix), unique(dco[case_prep])] <- 0
+    ix <- which(rowSums(m) > 1)
+  }
+  # watch out for vitamins/nutritional supplements
+  if(sum(m_has_nvit) > 0) {
+    m[intersect(which(m_has_nvit), ix), unique(dco[case_nvit])] <- 0
+    ix <- which(rowSums(m) > 1)
+  }
+
+  # fix combos
   for(i in seq_along(ix)) {
     spot <- which(m[ix[i],] > 0)
     opt <- inCombo1(ud[spot])
@@ -322,17 +382,26 @@ diffByLabel <- function(x, labels) {
     }
   }
 
-  for(i in seq(nrowA)) {
-    a1 <- ud[m[i,] == 1]
-    a2 <- ud[m[nrowA + i,] == 1]
-    if(length(a1)) a[i,'label1'] <- a1
-    if(length(a2)) a[i,'label2'] <- a2
+  # set labels for d1 and d2
+  ix <- which(rowSums(m) > 1)
+  if(length(ix)) {
+    stop('combos need to be resolved')
   }
+  mu <- which(m == 1, arr.ind = TRUE)
+  dname <- dnames[mu[,1]]
+  dtype <- ud[mu[,2]]
+  d1lix <- match(a[,'d1'], dname)
+  d2lix <- match(a[,'d2'], dname)
+  a[,'label1'] <- dtype[d1lix]
+  a[,'label2'] <- dtype[d2lix]
 
   # allow combos to match
-  for(i in seq(nrowA)) {
+  for(i in seq(nrow(a))) {
     nl1 <- a[i,'label1']
     nl2 <- a[i,'label2']
+    # skip missing labels
+    if(is.na(nl1) || is.na(nl2)) next
+    # skip equal labels
     if(nl1 == nl2) next
     nlc1 <- inCombo(nl1)
     nlc2 <- inCombo(nl2)
@@ -386,15 +455,23 @@ allndc <- datQry(con, qry)
 dat <- allndc[rev(!duplicated(rev(allndc[,'ndc']))),]
 ub <- unique(allndc)
 ubc <- checkdup(ub)
+
 tubc <- table(ub[,'ndc'])
 dupndcs <- names(tubc[tubc > 2])
-dupndc <- c(setdiff(ubc[ubc[,'maineq'] == 0,'ndc'], dupndcs), dupndcs)
+dubs <- ub[ub[,'ndc'] %in% dupndcs,]
+dubs[,'stdz'] <- tDrug(dubs[,'drug'])
+dubs[,'word'] <- bigWord(dubs[,'stdz'])
+tdubs <- tapply(dubs[,'word'], dubs[,'ndc'], function(i) length(unique(i)))
+tripndcs <- names(tdubs[tdubs > 1])
+
+dupndc <- c(setdiff(ubc[ubc[,'maineq'] == 0,'ndc'], dupndcs), tripndcs)
 dd <- ndc_compete(dupndc, dataTable, con)
 
 isDup <- dat[,'ndc'] %in% dd[,'ndc']
 xw1 <- dat[!isDup,]
 
 zz <- diffByLabel(dd, lu)
+
 ndc_ne <- zz[zz[,'labeleq'] == 0, 'ndc']
 ndc_eq <- zz[zz[,'labeleq'] == 1, 'ndc']
 if(length(ndc_ne)) {

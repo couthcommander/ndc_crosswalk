@@ -1,642 +1,1099 @@
-rxname,desc
-benazepril,ace inhibitor
-lisinopril,ace inhibitor
-isotretinoin,acne
-naltrexone,addiction
-silicon dioxide,additive
-durapore,adhesive
-rayon,adhesive
-"tape,scanpor",adhesive
-"tape,waterproof",adhesive
-adhesive remover,adhesive remover
-detachol,adhesive remover
-"alcohol,absolute",alcohol
+"rxname","desc"
+"benazepril","ace inhibitor"
+"enalapril","ace inhibitor"
+"lisinopril","ace inhibitor"
+"isotretinoin","acne"
+"sulfur","acne"
+"tretinoin","acne, moisturizer"
+"naltrexone","addiction"
+"deanol","ADHD"
+"dimethylaminoethanol","ADHD"
+"^adhesive tape","adhesive"
+"^tape","adhesive"
+"durapore","adhesive"
+"rayon","adhesive"
+"tape,scanpor","adhesive"
+"tape,waterproof","adhesive"
+"adhesive remover","adhesive remover"
+"detachol","adhesive remover"
+"alcohol,absolute","alcohol"
 "alcohol,ethyl","alcohol, sanitizer"
-diphenhydramine,allergy
-epinephrine,allergy
-generix t,allergy
-hydroxyzine,allergy
-triamcinolone,allergy
-dextromethorphan,"allergy, cold"
-phenylephrine,"allergy, hemorrhoid"
-doxylamine,"allergy, nausea"
-phenyltoloxamine,"allergy, pain relief"
-phenyltolxamine,"allergy, pain relief"
-promethazine,"allergy, pain relief"
-aminosyn,amino acids
-clinimix,amino acids
-bupivacaine,anesthetic
-etomidate,anesthetic
-menthol 1.4% patch,anesthetic
-menthol 2% gel,anesthetic
-methohexital,anesthetic
-phenol \(dilute\) 1.4%,anesthetic
-phenol 1.4%,anesthetic
-phentermine,anorectic
-al glycinate,antacid
-al oh,antacid
-aluminum hydroxide,antacid
-famotidine,antacid
-lansoprazole,antacid
-magnesium carbonate,antacid
-magnesium gluconate,antacid
-mg carb,antacid
-omeprazole,antacid
-sodium bicarbonate,antacid
-indomethacin,anti-inflammation
-interferon beta-1b,anti-inflammation
-salsalate,anti-inflammation
-bicalutamide,antiandrogen
-adenosine,antiarrhythmic
-amiodarone,antiarrhythmic
-procainamide,antiarrhythmic
-propafenone,antiarrhythmic
-quinidine,antiarrhythmic
-lidocaine,"antiarrhythmic, anesthetic"
-oxytetracycline,antibacterial
-pyrithione,antibacterial
-pyrithone,antibacterial
-azithromycin,antibiotic
-bacitracin,antibiotic
-cefadroxil,antibiotic
-cefotaxime,antibiotic
-ceftazidime,antibiotic
-cephalexin,antibiotic
-clindamycin,antibiotic
-cloxacillin,antibiotic
-doxycycline,antibiotic
-erythromycin,antibiotic
-gentamicin,antibiotic
-minocycline,antibiotic
-moxifloxacin,antibiotic
-nafcillin na,antibiotic
-penicillin,antibiotic
-polymyx,antibiotic
-polymyxin,antibiotic
-sulfamethizole,antibiotic
-sulfamethoxazole,antibiotic
-telavancin,antibiotic
-televancin,antibiotic
-tobramycin,antibiotic
-glycopyrrolate,anticholinergic
-heparin,anticoagulant
-lamotrigine,anticonvulsant
-levetiracetam,anticonvulsant
-phenytoin,anticonvulsant
-valproate,anticonvulsant
-valproic,anticonvulsant
-phenobarbital,"anticonvulsant, cramping"
-amitriptyline,antidepressant
-bupropion,antidepressant
-clomipramine,antidepressant
-desvenlafaxine,antidepressant
-mirtazapine,antidepressant
-tranylcypromine,antidepressant
-venlafaxine,antidepressant
-wellbutrin,antidepressant
-desmopressin,antidiuretic
-chlorpropamide,antidm
-glimepiride,antidm
-glyburide,antidm
-metformin,antidm
-tolazamide,antidm
-metoclopramide,antiemetic
-ondansetron,antiemetic
-scopolamine,antiemetic
-antifungal,antifungal
-miconazole,antifungal
-terbinafine,antifungal
-ting pwdr,antifungal
-undecylenic,antifungal
-silver nitrate,antiinfective
-spirulina,antioxidant
-zeaxanthin,antioxidant
-aluminum chloride,antiperspirant
-aluminum cl hexahydrate,antiperspirant
-aluminum hydroxychloride,antiperspirant
-haloperidol,antipsych
-lithium,antipsych
-thioridazine,antipsych
-antiseptic,antiseptic
-cadexomer,antiseptic
-povidone,antiseptic
-povidone iodine,antiseptic
-phenylmecuric,"antiseptic, antifungal"
-phenylmercuric,"antiseptic, antifungal"
-chlordiazepoxide,anxiety
-diazepam,"anxiety, sedative"
-losartan,arb inhibitor
-aspirin,aspirin
-flunisolide,asthma
-theophylline,asthma
-etanercept,autoimmune
-band-aid,barrier
-bandage,barrier
-barrier,barrier
-convex insert,barrier
-dermagran,barrier
-dressing,barrier
-gauze pad,barrier
-honey wound,barrier
-sensi-care,barrier
-skin prep aerosol,barrier
-skin prep liquid,barrier
-skin prep swab,barrier
-"sponge,nonwoven",barrier
-telfa pad,barrier
-lambs wool,bed sores
-lambs-wool,bed sores
-labetalol,beta blocker
-propranolol,beta blocker
-altavera,birth control
-balziva,birth control
-beyaz,birth control
-brevicon,birth control
-camila,birth control
-cyclafem,birth control
-cyclessa,birth control
-dasetta,birth control
-drospirenone,birth control
-errin,birth control
-estarylla,birth control
-estrostep,birth control
-etonogestrel,birth control
-generess,birth control
-jolivette,birth control
-junel,birth control
-loestrin,birth control
-marzia,birth control
-nonoxynol,birth control
-nor-qd,birth control
-nora-be,birth control
-norelgestromin,birth control
-norgestimate,birth control
-norinyl,birth control
-nuvaring,birth control
-ogestrel,birth control
-ortho evra,birth control
-ortho-novum,birth control
-ovcon,birth control
-ovral,birth control
-rajani,birth control
-sponyx,birth control
-sprintec,birth control
-sronyx,birth control
-tilia,birth control
-tri-cyclen,birth control
-trinessa,birth control
-zovia,birth control
-prothrombin,blood clotter
-anti-embolism,blood flow
-clopidogrel,blood thinner
-dipyridamole,blood thinner
-botulinum,botox
-onabotulinumtoxina,botox
-rimabotulinumtoxinb,botox
-midodrine,bp
-phenoxybenzamine,bp
-diltiazem,"bp, ca channel blocker"
-verapamil,"bp, ca channel blocker"
-fluticasone,breathing
-clevidepine,ca channel blocker
-clevidipine,ca channel blocker
-nifedipine,ca channel blocker
-"bcg,tice",cancer
-bortezomib,cancer
-cemiplimab,cancer
-cisplatin,cancer
-docetaxel,cancer
-doxorubicin,cancer
-gemcitabine,cancer
-oxaliplatin,cancer
-paclitaxel,cancer
-selinexor,cancer
-sunitinib,cancer
-thiotepa,cancer
-topotecan,cancer
-prevident,cavities
-fenofibrate,cholesterol
-niacin,cholesterol
-niaspan,cholesterol
-aloe vesta,"cleanser, antifungal"
-attends washcloth,cleanser
-baby shampoo,cleanser
-bedside-care cleanser,cleanser
-"cleanser,saf-clens",cleanser
-"cleanser,skin",cleanser
-cleansing cloth,cleanser
-cleansing foam,cleanser
-cleansing shampoo,cleanser
-no-rinse shampoo,cleanser
-papain,cleanser
-perineal skin cleanser,cleanser
-progaine,cleanser
-sodium hydroxide,cleanser
-boric acid,"cleanser, eye wash"
-rasburicase,clear uric acid
-guaifenesin,cold
-condom,condom
-hyoscyamine,cramping
-pseudefed,decongestant
-pseudoephedrine,decongestant
-infusion high-flow,device
-lactase,digest lactose
-furosemide,diuretic
-hydrochlorothiazide,diuretic
-mannitol,diuretic
-torsemide,diuretic
-trichlormethiazide,diuretic
-chlorthalidone,"diuretic, bp"
-metolazone,"diuretic, bp"
-douche,douche
-carboxymethylcellulose,dry eye
-hypromellose,dry eye
-methyclellulos,dry eye
-methylcellulos,dry eye
-methylcellulose,dry eye
-polyvinyl,dry eye
-propylene glycol,dry eye
-tears naturale,dry eye
-breezee,dry feet
-benzalkonium,ear infection
-parachlorometoxylenol,ear infection
-alfuzosin,enlarged prostrate
-topiramate,epilepsy
-salicylic acid,"exfoliant, skin irritation"
-naphazoline,eye decongestant
-tetrahydrozoline,eye decongestant
-atropine so4,eye dilation
-ranibizumab,eye disease
-mercuric oxide,eye infection
-timolol hemihydrate,eye pressure
-timolol maleate,eye pressure
-herbal vision care,eye vitamins
-icaps areds,eye vitamins
-ocuvite,eye vitamins
-eye-stream,eye wash
-irrigating eye,eye wash
-"mask,procedure",facemask
-warming mask,facemask
-ibuprofen,fever
-oseltamivir,flu
-charcoal 260mg,gas relief
-"charcoal,activated",gas relief
-galactisidase,gas relief
-galactosidase,gas relief
-simethicone,gas relief
-leuprolide acetate,gonatropin hormone
-somatrem,growth hormone
-somatropin,growth hormone
-juven,healing supplement
-hemorrhoidal,hemorrhoid
-hydrocortisone,"hemorrhoid, steroid"
-activella,hormone-F
-amabelz,hormone-F
-lopreeza,hormone-F
-mimvey,hormone-F
-progesterone,hormone-F
-estradiol,"hormone-F, birth control"
-levlen,"hormone-F, birth control"
-micronor,"hormone-F, birth control"
-necon,"hormone-F, birth control"
-norethindrone,"hormone-F, birth control"
-norg-ee,"hormone-F, birth control"
-norgestrel,"hormone-F, birth control"
-nortrel,"hormone-F, birth control"
-testosterone,hormone-M
-levothyroxine,hyperthyroidism
-liotrix,hyperthyroidism
-dextrose 24gm,hypoglycemia
-dextrose 40%,hypoglycemia
-dextrose 5%,hypoglycemia
-dextrose 50%,"hypoglycemia, antibiotic, laxative"
-tolvaptan,hyponatremia
-globulin,immunodeficiency
-"globulin,immune",immunodeficiency
-mycophenolate,immunosuppressive
-mycophenolic,immunosuppressive
-appliance deodorant,incontinence
-"bag,drainage",incontinence
-"bag,leg",incontinence
-"brief,prevail",incontinence
-"brief,xx-large",incontinence
-carrington odor eliminator,incontinence
-cath-secure,incontinence
-cath'n sleeve,incontinence
-catherization,incontinence
-catheter,incontinence
-cunningham clamp,incontinence
-depend adjustable,incontinence
-depend belted shields,incontinence
-depend refastenable,incontinence
-depend undergarment,incontinence
-dignity,incontinence
-drain tube,incontinence
-foley cath tray,incontinence
-incont liner,incontinence
-incontinence,incontinence
-irrigation,incontinence
-irrigator,incontinence
-"liner,securely yours",incontinence
-ostomy,incontinence
-peri-wash,incontinence
-poise pad,incontinence
-poise pad,incontinence
-"pouch,drainable",incontinence
-retracted penis,incontinence
-"sponge,drain",incontinence
-surfit,incontinence
-"underpad,bed",incontinence
-urinary drainage,incontinence
-urostomy,incontinence
-vaginal weights,incontinence
-wound collector,incontinence
+"ethyl alcohol","alcohol, sanitizer"
+"(^|[^a-z])epinephrine","allergy"
+"allergenic extract","allergy"
+"almond extract","allergy"
+"diphenhydramine","allergy"
+"fexofenadine","allergy"
+"generix t","allergy"
+"grass pollen","allergy"
+"hydroxyzine","allergy"
+"intraderm allergen","allergy"
+"ketotifen","allergy"
+"loratadine","allergy"
+"triamcinolone","allergy"
+"ven protein","allergy"
+"venom prot","allergy"
+"venom protein","allergy"
+"brompheniramine","allergy, cold"
+"chlorpheniramine","allergy, cold"
+"codeine 10mg/p-ephrine 5mg/prometh","allergy, cold"
+"dextromethorphan","allergy, cold"
+"p-ephrine","allergy, cold"
+"phenylephrine","allergy, hemorrhoid"
+"doxylamine","allergy, nausea"
+"phenyltoloxamine","allergy, pain relief"
+"phenyltolxamine","allergy, pain relief"
+"promethazine","allergy, pain relief"
+"donepezil","alzheimer"
+"aminosyn","amino acids"
+"clinimix","amino acids"
+"cysteine","amino acids"
+"lysine","amino acids"
+"bupivacaine","anesthetic"
+"cocaine","anesthetic"
+"ether","anesthetic"
+"etomidate","anesthetic"
+"halothane","anesthetic"
+"isoflurane","anesthetic"
+"ketamine","anesthetic"
+"menthol 1.4% patch","anesthetic"
+"menthol 2% gel","anesthetic"
+"methohexital","anesthetic"
+"phenol \(dilute\) 1.4%","anesthetic"
+"phenol 1.4%","anesthetic"
+"procaine","anesthetic"
+"propofol","anesthetic"
+"ropivacaine","anesthetic"
+"tetracaine","anesthetic"
+"phendimetrazine","anorectic"
+"phentermine","anorectic"
+"al glycinate","antacid"
+"al oh","antacid"
+"aluminum hydroxide","antacid"
+"famotidine","antacid"
+"lansoprazole","antacid, lanamox"
+"magnesium carbonate","antacid"
+"magnesium gluconate","antacid"
+"magnesium hydroxide","antacid"
+"mg carb","antacid"
+"omeprazole","antacid"
+"rabeprazole","antacid"
+"ranitidine","antacid"
+"sodium bicarbonate","antacid"
+"sucralfate","antacid"
+"glycyrrhiza","anti-inflammation"
+"glycyrrhizin","anti-inflammation"
+"indomethacin","anti-inflammation"
+"interferon beta-1b","anti-inflammation"
+"licorice","anti-inflammation"
+"mesalamine","anti-inflammation"
+"mustard","anti-inflammation"
+"myrrh oil","anti-inflammation"
+"omega-3","anti-inflammation, nutritional supplement"
+"salsalate","anti-inflammation"
+"sodium thiosalicylate","anti-inflammation"
+"zileuton","anti-inflammation"
+"bicalutamide","antiandrogen"
+"adenosine","antiarrhythmic"
+"amiodarone","antiarrhythmic"
+"disopyramide","antiarrhythmic"
+"procainamide","antiarrhythmic"
+"propafenone","antiarrhythmic"
+"quinidine","antiarrhythmic"
+"sotalol","antiarrhythmic"
+"lidocaine","antiarrhythmic, anesthetic"
+"digoxin","antiarrhythmic, bp"
+"oregano oil","antibacterial"
+"origanum oil","antibacterial"
+"oxytetracycline","antibacterial"
+"pyrithione","antibacterial"
+"pyrithone","antibacterial"
+"linezolid","antibioic"
+"^ofloxacin","antibiotic"
+"amikacin","antibiotic"
+"amoxicillin","antibiotic, lanamox"
+"ampicillin","antibiotic"
+"azithromycin","antibiotic"
+"bacitracin","antibiotic"
+"cefaclor","antibiotic"
+"cefadroxil","antibiotic"
+"cefdinir","antibiotic"
+"cefepime","antibiotic"
+"cefixime","antibiotic"
+"cefotaxime","antibiotic"
+"cefpodoxime","antibiotic"
+"cefprozil","antibiotic"
+"ceftazidime","antibiotic"
+"ceftibuten","antibiotic"
+"cefuroxime","antibiotic"
+"cephalexin","antibiotic"
+"cephradine","antibiotic"
+"ciprofloxacin","antibiotic"
+"clindamycin","antibiotic"
+"cloxacillin","antibiotic"
+"doxycycline","antibiotic"
+"erythromycin","antibiotic"
+"gentamicin","antibiotic"
+"isoniazid","antibiotic"
+"levofloxacin","antibiotic"
+"metronidazole","antibiotic"
+"minocycline","antibiotic"
+"moxifloxacin","antibiotic"
+"nafcillin","antibiotic"
+"nafcillin na","antibiotic"
+"neomycin","antibiotic"
+"nitrofurantoin","antibiotic"
+"oxacillin","antibiotic"
+"penicillin","antibiotic"
+"polymyxin","antibiotic"
+"prevpac","antibiotic"
+"rifampin","antibiotic"
+"sulfadiazine","antibiotic"
+"sulfamethizole","antibiotic"
+"sulfamethoxazole","antibiotic"
+"sulfisoxazole","antibiotic"
+"telavancin","antibiotic"
+"televancin","antibiotic"
+"tobramycin","antibiotic"
+"vancomycin","antibiotic"
+"polymyx","antibiotic, incontinence"
+"glycopyrrolate","anticholinergic"
+"isopropamide","anticholinergic"
+"citrate phosphate","anticoagulant"
+"citrate-phos-dex","anticoagulant"
+"heparin","anticoagulant"
+"felbamate","anticonvulsant"
+"lamotrigine","anticonvulsant"
+"levetiracetam","anticonvulsant"
+"phenytoin","anticonvulsant"
+"valproate","anticonvulsant"
+"valproic","anticonvulsant"
+"phenobarbital","anticonvulsant, cramping"
+"amitriptyline","antidepressant"
+"amoxapine","antidepressant"
+"bupropion","antidepressant"
+"clomipramine","antidepressant"
+"desvenlafaxine","antidepressant"
+"doxepin","antidepressant"
+"duloxetine","antidepressant"
+"fluoxetine","antidepressant"
+"hydroxytryptophan","antidepressant"
+"imipramine","antidepressant"
+"mirtazapine","antidepressant"
+"oxitriptan","antidepressant"
+"sertraline","antidepressant"
+"tranylcypromine","antidepressant"
+"trimipramine","antidepressant"
+"venlafaxine","antidepressant"
+"wellbutrin","antidepressant"
+"kaolin","antidiarrheal"
+"desmopressin","antidiuretic"
+"chlorpropamide","antidm"
+"glimepiride","antidm"
+"glyburide","antidm"
+"metformin","antidm"
+"pioglitazone","antidm"
+"tolazamide","antidm"
+"sodium nitrite","antidote"
+"sodium thiosulfate","antidote"
+"metoclopramide","antiemetic"
+"ondansetron","antiemetic"
+"scopolamine","antiemetic"
+"antifungal","antifungal"
+"clioquinol","antifungal"
+"fluconazole","antifungal"
+"miconazole","antifungal"
+"nystatin","antifungal"
+"selenium sulfide","antifungal"
+"tavaborole","antifungal"
+"terbinafine","antifungal"
+"terconazole","antifungal"
+"ting pwdr","antifungal"
+"undecylenic","antifungal"
+"voriconazole","antifungal"
+"^acai","antioxidant"
+"cinnamon","antioxidant"
+"sodium sulfite","antioxidant"
+"spirulina","antioxidant"
+"turmeric","antioxidant"
+"zeaxanthin","antioxidant"
+"aluminum chloride","antiperspirant"
+"aluminum cl hexahydrate","antiperspirant"
+"aluminum hydroxychloride","antiperspirant"
+"iodoquinol","antiprotozoal, sunburn"
+"chlorpromazine","antipsych"
+"clozapine","antipsych"
+"haloperidol","antipsych"
+"lithium","antipsych"
+"loxapine","antipsych"
+"olanzapine","antipsych"
+"risperidone","antipsych"
+"thioridazine","antipsych"
+"thiothixene","antipsych"
+"ziprasidone","antipsych"
+"ammonium phosphate","antirheumatic"
+"alcohol prep","antiseptic"
+"alcohol,denatured","antiseptic"
+"anise","antiseptic"
+"antiseptic","antiseptic"
+"benzoin","antiseptic"
+"benzoyl peroxide","antiseptic"
+"bloodroot","antiseptic"
+"cadexomer","antiseptic"
+"hydrogen peroxide","antiseptic"
+"iodine","antiseptic"
+"povidone","antiseptic"
+"sanguinaria","antiseptic"
+"sodium perborate","antiseptic"
+"tea tree oil","antiseptic"
+"thyme","antiseptic"
+"thymol iodide","antiseptic"
+"phenylmecuric","antiseptic, antifungal"
+"phenylmercuric","antiseptic, antifungal"
+"propylthiouracil","antithyroid"
+"antivenin","antivenom"
+"acyclovir","antiviral"
+"ribavirin","antiviral"
+"chlordiazepoxide","anxiety"
+"kava","anxiety"
+"nutmeg oil","anxiety"
+"diazepam","anxiety, sedative"
+"losartan","arb inhibitor"
+"^panthenol","arthritis"
+"meloxicam","arthritis"
+"aspirin","aspirin"
+"flunisolide","asthma"
+"theophylline","asthma, cold"
+"etanercept","autoimmune"
+"band-aid","barrier"
+"bandage","barrier"
+"barrier","barrier"
+"convex insert","barrier"
+"cream base","barrier"
+"dermagran","barrier"
+"dressing","barrier"
+"gauze pad","barrier"
+"honey wound","barrier"
+"potassium nitrate","barrier"
+"sensi-care","barrier"
+"silver nitrate","barrier"
+"skin prep aerosol","barrier"
+"skin prep liquid","barrier"
+"skin prep swab","barrier"
+"sponge,nonwoven","barrier"
+"telfa pad","barrier"
+"lambs wool","bed sores"
+"lambs-wool","bed sores"
+"atenolol","beta blocker"
+"carteolol","beta blocker"
+"esmolol","beta blocker"
+"labetalol","beta blocker"
+"metoprolol","beta blocker"
+"propranolol","beta blocker"
+"altavera","birth control"
+"balziva","birth control"
+"beyaz","birth control"
+"brevicon","birth control"
+"camila","birth control"
+"cryselle","birth control"
+"cyclafem","birth control"
+"cyclessa","birth control"
+"dasetta","birth control"
+"drospirenone","birth control"
+"errin","birth control"
+"estarylla","birth control"
+"estrostep","birth control"
+"etonogestrel","birth control"
+"generess","birth control"
+"jolivette","birth control"
+"junel","birth control"
+"kaitlib","birth control"
+"layolis","birth control"
+"loestrin","birth control"
+"marzia","birth control"
+"minastrin","birth control"
+"nonoxynol","birth control"
+"nor-qd","birth control"
+"nora-be","birth control"
+"norelgestromin","birth control"
+"norgestimate","birth control"
+"norinyl","birth control"
+"nuvaring","birth control"
+"ogestrel","birth control"
+"ortho evra","birth control"
+"ortho-novum","birth control"
+"ovcon","birth control"
+"ovral","birth control"
+"quartette","birth control"
+"rajani","birth control"
+"safyral","birth control"
+"sponyx","birth control"
+"sprintec","birth control"
+"sronyx","birth control"
+"taytulla","birth control"
+"tilia","birth control"
+"tri-cyclen","birth control"
+"trinessa","birth control"
+"zovia","birth control"
+"prothrombin","blood clotter"
+"tranexamic","blood clotter"
+"anti-embolism","blood flow"
+"glucagon","blood sugar"
+"clopidogrel","blood thinner"
+"dipyridamole","blood thinner"
+"botulinum","botox"
+"onabotulinumtoxina","botox"
+"rimabotulinumtoxinb","botox"
+"aliskiren","bp"
+"dopamine","bp"
+"guanethidine sulfate","bp"
+"hydralazine","bp"
+"methyldopa","bp"
+"midodrine","bp"
+"norepinephrine bitartrate","bp"
+"phenoxybenzamine","bp"
+"reserpine","bp"
+"yohimbine","bp"
+"diltiazem","bp, ca channel blocker"
+"verapamil","bp, ca channel blocker"
+"caffeine citrated?","breathing"
+"doxapram","breathing"
+"fluticasone","breathing"
+"na benzoate","breathing"
+"sodium benzoate","breathing"
+"orris root","bronchitis"
+"albuterol","bronchodilator"
+"aminophylline","bronchodilator"
+"racepinephrine","bronchodilator"
+"amlodipine","ca channel blocker"
+"clevidepine","ca channel blocker"
+"clevidipine","ca channel blocker"
+"nifedipine","ca channel blocker"
+"amifostine","cancer"
+"arsenic","cancer"
+"bortezomib","cancer"
+"cemiplimab","cancer"
+"cisplatin","cancer"
+"docetaxel","cancer"
+"doxorubicin","cancer"
+"gemcitabine","cancer"
+"lapatinib","cancer"
+"megestrol","cancer"
+"mesna","cancer"
+"oxaliplatin","cancer"
+"paclitaxel","cancer"
+"selinexor","cancer"
+"sunitinib","cancer"
+"thiotepa","cancer"
+"topotecan","cancer"
+"valrubicin","cancer"
+"cardioplegic solution","cardiac stasis"
+"plegisol","cardiac stasis"
+"fluorophosphate","cavities"
+"fluorphosphate","cavities"
+"prevident","cavities"
+"isosorbide","chest pain"
+"^oleic acid","cholesterol"
+"acacia","cholesterol"
+"ezetimibe","cholesterol"
+"fenofibrate","cholesterol"
+"gymenma","cholesterol"
+"gymnema leaf","cholesterol"
+"lecithin","cholesterol"
+"niacin","cholesterol"
+"niaspan","cholesterol"
+"olive oil","cholesterol"
+"selenium 40 ?mcg","cholesterol"
+"vanadyl sulfate","cholesterol"
+"attends washcloth","cleanser"
+"baby shampoo","cleanser"
+"bedside-care cleanser","cleanser"
+"cleanser,saf-clens","cleanser"
+"cleanser,skin","cleanser"
+"cleansing cloth","cleanser"
+"cleansing foam","cleanser"
+"cleansing shampoo","cleanser"
+"no-rinse shampoo","cleanser"
+"papain","cleanser"
+"perineal skin cleanser","cleanser"
+"progaine","cleanser"
+"sodium hydroxide","cleanser"
+"aloe vesta","cleanser, antifungal"
+"boric acid","cleanser, eye wash"
+"rasburicase","clear uric acid"
+"ferric sulfate","coagulant"
+"ginkgo","cognitive function"
+"apap.*ctm","cold"
+"golden seal","cold"
+"goldenseal","cold"
+"guaifenesin","cold"
+"hydrocodone.*homatropine","cold"
+"hydrocodone.*p-ephrine","cold"
+"potassium guaico","cold"
+"dye fdc","color additive"
+"fd & c","color additive"
+"fd and c","color additive"
+"fd&c","color additive"
+"condom","condom"
+"hyoscyamine","cramping"
+"cysteamine","cystine"
+"pseudefed","decongestant"
+"pseudoephedrine","decongestant, cold"
+"galantamine","dementia"
+"infusion high-flow","device"
+"lactase","digest lactose"
+"enzymes,digestive","digestion"
+"papaya","digestion"
+"amiloride","diuretic"
+"ammonium chloride","diuretic, allergy"
+"ammonium nitrate","diuretic"
+"ethacrynic","diuretic"
+"furosemide","diuretic"
+"hydrochlorothiazide","diuretic"
+"mannitol","diuretic"
+"torsemide","diuretic"
+"trichlormethiazide","diuretic"
+"chlorthalidone","diuretic, bp"
+"metolazone","diuretic, bp"
+"douche","douche, antiseptic"
+"carboxymethylcellulose","dry eye"
+"hypromellose","dry eye"
+"methyclellulos","dry eye"
+"methylcellulos","dry eye"
+"methylcellulose","dry eye"
+"polyvinyl","dry eye"
+"propylene glycol","dry eye"
+"tears naturale","dry eye"
+"breezee","dry feet"
+"acetic ac","ear infection"
+"acetic acid","ear infection"
+"cresyl acetate","ear infection"
+"parachlorometoxylenol","ear infection"
+"alfuzosin","enlarged prostrate"
+"topiramate","epilepsy"
+"lactic acid","exfoliant"
+"salicylic acid","exfoliant, skin irritation"
+"^urea.*powder","exfoliant"
+"^urea [0-9]","exfoliant"
+"cetylpyridinium","expectorant"
+"guaiacolsulf","expectorant"
+"lozenge","expectorant, sore throat"
+"terpin hydrate","expectorant"
+"naphazoline","eye decongestant"
+"tetrahydrozoline","eye decongestant"
+"atropine so4","eye dilation"
+"atropine sulfate","eye dilation"
+"ranibizumab","eye disease"
+"mercuric oxide","eye infection"
+"bromfenac","eye pain"
+"timolol hemihydrate","eye pressure"
+"timolol maleate","eye pressure"
+"herbal vision care","eye vitamins"
+"icaps areds","eye vitamins"
+"ocuvite","eye vitamins"
+"eye-stream","eye wash"
+"irrigating eye","eye wash"
+"mask,procedure","facemask"
+"warming mask","facemask"
+"ammonia","fainting"
+"ibuprofen","fever"
+"oseltamivir","flu"
+"ursodiol","gallstones"
+"charcoal 260mg","gas relief"
+"charcoal,activated","gas relief"
+"galactisidase","gas relief"
+"galactosidase","gas relief"
+"simethicone","gas relief"
+"betaxolol.*oph.*","glaucoma"
+"travoprost","glaucoma"
+"leuprolide acetate","gonatropin hormone"
+"allopurinol","gout"
+"probenecid","gout"
+"somatrem","growth hormone"
+"somatropin","growth hormone"
+"cedarwood oil","healing supplement"
+"juven","healing supplement"
+"balsam peru","healing supplement"
+"castor oil","healing supplement"
+"peruvian balsam","healing supplement"
+"ginseng","health"
+"hemorrhoidal","hemorrhoid"
+"hydrocortisone","hemorrhoid, steroid"
+"anusert","hemorrhoids"
+"lamivudine","hepb, hiv"
+"stavudine","hiv"
+"secretin","hormone"
+"vasopressin","hormone"
+"activella","hormone-F"
+"amabelz","hormone-F"
+"estrogens?","hormone-F"
+"estrone","hormone-F"
+"lopreeza","hormone-F"
+"mimvey","hormone-F"
+"progesterone","hormone-F"
+"estradiol","hormone-F, birth control"
+"levlen","hormone-F, birth control"
+"micronor","hormone-F, birth control"
+"necon","hormone-F, birth control"
+"norethindrone","hormone-F, birth control"
+"norg-ee","hormone-F, birth control"
+"norgestrel","hormone-F, birth control"
+"nortrel","hormone-F, birth control"
+"oxytocin","hormone-F, replacement fluids"
+"testosterone","hormone-M"
+"invert sugar","hyperalimentation"
+"inverted sugar","hyperalimentation"
+"edetate disodium","hypercalcemia"
+"paricalcitol","hyperparathyroidism"
+"levothyroxine","hyperthyroidism"
+"liotrix","hyperthyroidism"
+"potassium iodide.*crystals","hyperthyroidism"
+"potassium iodide.*granules","hyperthyroidism"
+"dextrose","hypoglycemia"
+"tolvaptan","hyponatremia"
+"potassium phos","hypophosphatemia"
+"potassium phosphate","hypophosphatemia"
+"thyroid","hypothyroidism"
+"^dextran.*saline","hypovolemia"
+"^dextran.*nacl","hypovolemia, dry eye"
+"^dextran.*sodium chloride","hypovolemia"
+"globulin","immunodeficiency"
+"globulin,immune","immunodeficiency"
+"mycophenolate","immunosuppressive"
+"mycophenolic","immunosuppressive"
+"appliance deodorant","incontinence"
+"bag,drainage","incontinence"
+"bag,leg","incontinence"
+"brief,prevail","incontinence"
+"brief,xx-large","incontinence"
+"carrington odor eliminator","incontinence"
+"cath-secure","incontinence"
+"cath'n sleeve","incontinence"
+"catherization","incontinence"
+"catheter","incontinence"
+"cunningham clamp","incontinence"
+"darifenacin","incontinence"
+"depend adjustable","incontinence"
+"depend belted shields","incontinence"
+"depend refastenable","incontinence"
+"depend undergarment","incontinence"
+"dignity","incontinence"
+"drain tube","incontinence"
+"foley cath tray","incontinence"
+"glycine","incontinence"
+"incont liner","incontinence"
+"incontinence","incontinence"
+"irrigation sleeve","incontinence"
+"irrigator","incontinence"
+"liner,securely yours","incontinence"
+"ostomy","incontinence"
+"peri-wash","incontinence"
+"poise pad","incontinence"
+"poise pad","incontinence"
+"pouch,drainable","incontinence"
+"retracted penis","incontinence"
+"sorbitol.*sol.*","incontinence"
+"sponge,drain","incontinence"
+"surfit","incontinence"
+"trospium chloride","incontinence"
+"trospium cl","incontinence"
+"underpad,bed","incontinence"
+"urinary drainage","incontinence"
+"urologic solution","incontinence"
+"urostomy","incontinence"
+"vaginal weights","incontinence"
+"wound collector","incontinence"
 "barrier,ostomy","incontinence, barrier"
-coloplast,"incontinence, barrier"
-proshield plus,"incontinence, barrier"
-clomiphene,infertility
-"set,infusion",infusion
-aerochamber,inhaler
-temazepam,insomnia
-"cartridge,disetronic",insulin
-glargine,insulin
-glulisine,insulin
-insulin,insulin
-magni-guide,insulin
-doxercalciferol,kidney disease
-phosphorus 250mg,kidney stones
-phosphourus 250mg,kidney stones
-bisacodyl,laxative
-castile soap enema,laxative
-castor oil,laxative
-docusate,laxative
-glycerin \(adult\) supp,laxative
-karaya,laxative
-milk of magnesia,laxative
-"mineral oil,extra heavy",laxative
-"mineral oil,heavy",laxative
-"mineral oil,light",laxative
-mineral oil emulsion,laxative
-mucilloid,laxative
-nulytely,laxative
-psyllium,laxative
-sodium phosphate mono,laxative
-polyethylene glycol,"laxative, moisturizer"
-hydroquinone,"lighten skin, sunscreen"
-cetylpyridinium,lozenge
-lozenge,lozenge
-lubricating jelly,lubricant
-acetylcysteine,lung disease
-protease,malabsorption
-rizatriptan,migraines
-sumatriptan,migraines
-electrolyte,minerals
-electrolytes,minerals
-magnesium 64mg,minerals
-magnesium 70mg,minerals
-magnesium chloride,minerals
-potassium chloride,minerals
-sodium chloride,"minerals, eye wash"
-absorbase,moisturizer
-aquabase,moisturizer
-bath oil,moisturizer
-biafine,moisturizer
-cetaphil,moisturizer
-derma,moisturizer
-dermabase,moisturizer
-dimethicone,moisturizer
-eucerin,moisturizer
-fattibase,moisturizer
-gentle cream,moisturizer
-geri soft,moisturizer
-hydrocerin,moisturizer
-hydrophilic,moisturizer
-hydrophor,moisturizer
-keri lotion,moisturizer
-kerodex,moisturizer
-lanolin,moisturizer
-moisturizer,moisturizer
-moisturizing,moisturizer
-petrolatum,moisturizer
-therapeutic bath lotion,moisturizer
-vanicream,"moisturizer, sunscreen"
-methocarbamol,muscle relaxant
-ascorbic acid,nutritional supplement
-blue green algae,nutritional supplement
-boost breeze,nutritional supplement
-boost diabetic,nutritional supplement
-boost glucose control,nutritional supplement
-boost high protein,nutritional supplement
-boost liquid,nutritional supplement
-boost plus,nutritional supplement
-boost w/fiber,nutritional supplement
-calcitriol,nutritional supplement
-calcium,nutritional supplement
-cardiotex,nutritional supplement
-centrum,nutritional supplement
-cerefolin,nutritional supplement
-certagen,nutritional supplement
-cholecalciferol,nutritional supplement
-cholinoid,nutritional supplement
-complete tab,nutritional supplement
-complex w/vit,nutritional supplement
-"connector,y-port",nutritional supplement
-curcuma,nutritional supplement
-cyanocobalamin,nutritional supplement
-dialyvite,nutritional supplement
-ensure,nutritional supplement
-ethyl esters,nutritional supplement
-fat emulsion,nutritional supplement
-fe fumarate,nutritional supplement
-feeding bag,nutritional supplement
-ferrous so4,nutritional supplement
-fiber liquid,nutritional supplement
-fish oil,nutritional supplement
-folic acid,nutritional supplement
-free amino acid diet,nutritional supplement
-fruity chews,nutritional supplement
-gen-bee,nutritional supplement
-glucerna,nutritional supplement
-glucose 30gm,nutritional supplement
-glucose 4gm tab,nutritional supplement
-glytrol,nutritional supplement
-herbal b,nutritional supplement
-herbal gi,nutritional supplement
-hexavitamin,nutritional supplement
-hi-cal liquid,nutritional supplement
-hyperlyte,nutritional supplement
-iron dextran,nutritional supplement
-jevity,nutritional supplement
-kangaroo pump set,nutritional supplement
-lipogen,nutritional supplement
-liquacel,nutritional supplement
-liquid hope,nutritional supplement
-macuvite,nutritional supplement
-meritene,nutritional supplement
-methylcobalamin,nutritional supplement
-mononitrate,nutritional supplement
-multivit,nutritional supplement
-multivitamin,nutritional supplement
-multivitamins,nutritional supplement
-multivitamns,nutritional supplement
-multivits,nutritional supplement
-neocate,nutritional supplement
-nephro-vite,nutritional supplement
-nephrocaps,nutritional supplement
-nepro,nutritional supplement
-novasource,nutritional supplement
-nutren,nutritional supplement
-osmolite,nutritional supplement
-peptamen,nutritional supplement
-polysaccharide complex,nutritional supplement
-polyunsaturated fatty acids,nutritional supplement
-prenatal-s,nutritional supplement
-prenatal tab,nutritional supplement
-pro-stat \(sf\),nutritional supplement
-pro-stat awc,nutritional supplement
-pro-stat 64,nutritional supplement
-promod,nutritional supplement
-promote,nutritional supplement
-renal caps,nutritional supplement
-replete liquid,nutritional supplement
-resource,nutritional supplement
-sodium acetate,nutritional supplement
-stress formula,nutritional supplement
-stresstabs,nutritional supplement
-sumalate,nutritional supplement
-supplement,nutritional supplement
-surbex,nutritional supplement
-surbu-gen-t,nutritional supplement
-syrvite,nutritional supplement
-thiamine,nutritional supplement
-tocopheryl,nutritional supplement
-tolerex,nutritional supplement
-tube feeding,nutritional supplement
-vit a 1500unt,nutritional supplement
-vital 1.5 cal,nutritional supplement
-vital high nitrogen,nutritional supplement
-vital peptide,nutritional supplement
-vitamin,nutritional supplement
-vitamins,nutritional supplement
-vivonex,nutritional supplement
-zinc 50mg,nutritional supplement
-zinc gluconate,nutritional supplement
-zinc so4,nutritional supplement
-pyridoxine,"nutritional supplement, nausea"
-cod liver oil,"nutritional supplement, skin irritation"
-naloxone,opioid overdose
-risedronate,osteoporosis
-teriparatide,osteoporosis
-contact lens,other
-acetaminophen,pain relief
-capsacian,pain relief
-capsaicin,pain relief
-hydromorphone,pain relief
-ketorolac,pain relief
-meperidine,pain relief
-methadone,pain relief
-methyl salicylate,pain relief
-morphine,pain relief
-naproxen,pain relief
-opium 10% tincture,pain relief
-oxycodone,pain relief
-propoxyphene,pain relief
-tramadol,pain relief
-pramipexole dihydrochloride,parkinsons
-acidophilus,probiotic
-fructooligosaccharides,probiotic
-lactobacillus,probiotic
-probiotic,probiotic
-ixekizumab,psoriasis
-technetium,radiopharmaceutical
-technetum,radiopharmaceutical
-m-trace,replacement fluids
-multiple trace element,replacement fluids
-multiple trace elements,replacement fluids
-prismasol,replacement fluids
-selenomethionine,replacement fluids
-"trace elements,adult",replacement fluids
-"trace elements,pediatric",replacement fluids
-sanitizer,sanitizer
-"talc,sterile",sclerosing
-butabarbital,sedative
-dexmedetomidine,sedative
-midazolam,sedative
-magnesium so4,seizures
-"soap bar,sensitive skin",sensitive skin
-oxymetazoline,sinus
-sinus rinse,sinus
-aminobenzoic,skin irritation
-aquaphor,skin irritation
-calamine,skin irritation
-camphor,skin irritation
-coal tar,skin irritation
-cold cream,skin irritation
-corn starch,skin irritation
-domol bath,skin irritation
-hamamelis,skin irritation
-lanolin,skin irritation
-lubriderm,skin irritation
-mexsana,skin irritation
-moisturel,skin irritation
-"oatmeal,colloidal",skin irritation
-triclosan,skin irritation
-urea 40%,skin irritation
-witch hazel,skin irritation
-zinc oxide,skin irritation
-nicotine,smoking
-atorvastatin,statin
-methylprednisolone,steroid
-prednisone,steroid
-dexmethylphenidate,stimulant
-dextroamphetamine,stimulant
-avobenzone,sunscreen
-dioxybenzone,sunscreen
-oxybenzone,sunscreen
-sunscreen,sunscreen
-suppository base,"suppository, moisturizer"
-beractant,surfactant
-maltodextrin,sweetener
-syringe 1ml/ndl,syringe
-syringe 2.5-3ml/ndl 22g 1in,syringe
-syringe 50-60ml,syringe
-syringe 60ml eccentric tip,syringe
-syringe toomey 60ml,syringe
-\(glucose\) test,test-glucose
-ascensia,test-glucose
-contour,test-glucose
-disposable needle,test-glucose
-freestyle,test-glucose
-glucometer,test-glucose
-"lancet,abbott",test-glucose
-"lancet,unilet",test-glucose
-medisense,test-glucose
-needle disposable,test-glucose
-needle disposal,test-glucose
-"needle,pen",test-glucose
-sof-tact,test-glucose
-trueplus,test-glucose
-ketone,test-ketone
-romiplastim,thrombocytopenia
-romiplostim,thrombocytopenia
-sodium fluoride,tooth decay
-trach tube,trach tube
-influenza,vaccine-flu
-hepatitis a,vaccine-hepa
-haemophilus,vaccine-hib
-pedvax,vaccine-hib
-meningococcal,vaccine-meningitis
-meningococcal polysaccharide,vaccine-meningitis
-menomune,vaccine-meningitis
-rotavirus pentavalent,vaccine-rotavirus
-rotavirus tetravalent,vaccine-rotavirus
-theracys,vaccine-tb
-pertuss,vaccine-tdap
-cilostazol,vasodilator
-epoprostenol,vasodilator
-isoxsuprine,vasodilator
-nitroglycerin,vasodilator
-tadalafil,vasodilator
-kunecatechins,warts
-podophyllin,warts
-sinecatechins,warts
+"coloplast","incontinence, barrier"
+"proshield plus","incontinence, barrier"
+"clomiphene","infertility"
+"set,infusion","infusion"
+"alcohol,methyl","ingredient"
+"ammonium sulfate","ingredient"
+"benzalkonium","ingredient"
+"cherry.*syrup","ingredient"
+"methanol","ingredient"
+"rosin","ingredient"
+"silica","ingredient"
+"silicon","ingredient"
+"stearyl alcohol","ingredient"
+"tartaric acid","ingredient"
+"aerochamber","inhaler"
+"temazepam","insomnia"
+"cartridge,disetronic","insulin"
+"glargine","insulin"
+"glulisine","insulin"
+"insulin","insulin"
+"magni-guide","insulin"
+"doxercalciferol","kidney disease"
+"sodium citrate","kidney stones"
+"citric ac","kidney stones,antacid"
+"potassium citrate","kidney stones,minerals"
+"bisacodyl","laxative"
+"cascara","laxative"
+"castile soap enema","laxative"
+"dexpanthenol.*injection","laxative"
+"docusate","laxative"
+"karaya","laxative"
+"milk of magnesia","laxative"
+"mineral oil emulsion","laxative"
+"mineral oil,extra heavy","laxative"
+"mineral oil,heavy","laxative"
+"mineral oil,light","laxative"
+"mucilloid","laxative"
+"na biphosphate","laxative"
+"nulytely","laxative"
+"peg 3350.*sod","laxative"
+"potassium sodium tartrate","laxative"
+"psyllium","laxative"
+"senna","laxative"
+"sodium nitrate","laxative"
+"sodium phos","laxative"
+"sodium phosphate","laxative"
+"sodium phosphate mono","laxative"
+"sodium sulfate","laxative"
+"polyethylene glycol","laxative, moisturizer"
+"spinosad","lice"
+"hydroquinone","lighten skin, sunscreen"
+"milk thistle","liver"
+"lubricating jelly","lubricant"
+"acetylcysteine","lung disease"
+"hydroxychloroquine sulfate","lupus"
+"protease","malabsorption"
+"chloroquine phosphate","malaria"
+"quinine","malaria"
+"cromolyn","mastocytosis"
+"^water for","med prep"
+"^water in oil","med prep"
+"^water miscell","med prep"
+"^water,.*","med prep"
+"^water/benzyl","med prep"
+"bacteriostatic","med prep"
+"flavoring agents","med taste"
+"black cohosh","menopause"
+"dong quai","menopause"
+"ergotamine.*pheno.*","menopause"
+"eletriptan","migraines"
+"rizatriptan","migraines"
+"sumatriptan","migraines"
+"chromium","minerals"
+"citric acid","minerals"
+"electrolyte","minerals"
+"electrolytes","minerals"
+"magnesium 64mg","minerals"
+"magnesium 70mg","minerals"
+"magnesium chloride","minerals"
+"phosphou?rus","minerals"
+"potassium acetate","minerals"
+"potassium bicarbonate","minerals"
+"potassium chloride","minerals, replacement fluids"
+"zinc acetate","minerals"
+"zinc chloride","minerals"
+"sodium chloride","minerals, eye wash"
+"absorbase","moisturizer"
+"aquabase","moisturizer"
+"bath oil","moisturizer"
+"biafine","moisturizer"
+"cetaphil","moisturizer"
+"derma","moisturizer"
+"dermabase","moisturizer"
+"dimethicone","moisturizer"
+"emollient.*cream","moisturizer"
+"eucerin","moisturizer"
+"fattibase","moisturizer"
+"gentle cream","moisturizer"
+"geri soft","moisturizer"
+"^glycerin","moisturizer, dry eye"
+"hydrocerin","moisturizer"
+"hydrophilic","moisturizer"
+"hydrophor","moisturizer"
+"keri lotion","moisturizer"
+"kerodex","moisturizer"
+"lanolin","moisturizer"
+"moisturizer","moisturizer"
+"moisturizing","moisturizer"
+"petrolatum","moisturizer"
+"squalane","moisturizer"
+"therapeutic bath lotion","moisturizer"
+"wheat germ oil","moisturizer"
+"vanicream","moisturizer, sunscreen"
+"ergoloid","mood"
+"meclizine","motion sickness"
+"creatine","muscle"
+"methandrostenolone","muscle"
+"baclofen","muscle relaxant"
+"carisoprodol","muscle relaxant"
+"methocarbamol","muscle relaxant"
+"ammonium molybdate","nutritional supplement"
+"ascorbic acid","nutritional supplement"
+"beef,iron","nutritional supplement"
+"betalin","nutritional supplement"
+"blue green algae","nutritional supplement"
+"bone meal","nutritional supplement"
+"boost breeze","nutritional supplement"
+"boost diabetic","nutritional supplement"
+"boost glucose control","nutritional supplement"
+"boost high protein","nutritional supplement"
+"boost liquid","nutritional supplement"
+"boost plus","nutritional supplement"
+"boost w/fiber","nutritional supplement"
+"boron","nutritional supplement"
+"bromelains?","nutritional supplement"
+"calcitriol","nutritional supplement"
+"calcium","nutritional supplement"
+"cardiotex","nutritional supplement"
+"centrum","nutritional supplement"
+"centurion","nutritional supplement"
+"cerefolin","nutritional supplement"
+"certagen","nutritional supplement"
+"cholecalciferol","nutritional supplement"
+"cholinoid","nutritional supplement"
+"chromagen","nutritional supplement"
+"coenzyme q10","nutritional supplement"
+"complete tab","nutritional supplement"
+"complex w/vit","nutritional supplement"
+"connector,y-port","nutritional supplement"
+"cupric so4","nutritional supplement"
+"cupric sulfate","nutritional supplement"
+"curcuma","nutritional supplement"
+"cyanocobalamin","nutritional supplement"
+"dialyvite","nutritional supplement"
+"diindolylmethane","nutritional supplement"
+"ensure","nutritional supplement"
+"ethyl esters","nutritional supplement"
+"fat emulsion","nutritional supplement"
+"fe fumarate","nutritional supplement"
+"feeding bag","nutritional supplement"
+"ferrous gluconate","nutritional supplement"
+"ferrous so4","nutritional supplement"
+"ferrous sulfate","nutritional supplement"
+"fiber liquid","nutritional supplement"
+"fish oil","nutritional supplement"
+"folic acid","nutritional supplement"
+"free amino acid diet","nutritional supplement"
+"fruity chews","nutritional supplement"
+"gen-bee","nutritional supplement"
+"generet","nutritional supplement"
+"glucerna","nutritional supplement"
+"glucose 30gm","nutritional supplement"
+"glucose 4gm tab","nutritional supplement"
+"glytrol","nutritional supplement"
+"gotu kola","nutritional supplement"
+"herbal b","nutritional supplement"
+"herbal gi","nutritional supplement"
+"hexavitamin","nutritional supplement"
+"hi-cal liquid","nutritional supplement"
+"hyperlyte","nutritional supplement"
+"iron asp","nutritional supplement"
+"iron dextran","nutritional supplement"
+"iron fumarte","nutritional supplement"
+"iron polysaccharides","nutritional supplement"
+"jevity","nutritional supplement"
+"kangaroo pump set","nutritional supplement"
+"linoleic acid","nutritional supplement"
+"lipogen","nutritional supplement"
+"liquacel","nutritional supplement"
+"liquid hope","nutritional supplement"
+"macuvite","nutritional supplement"
+"meritene","nutritional supplement"
+"methylcobalamin","nutritional supplement"
+"methylfolate","nutritional supplement"
+"molybdenum","nutritional supplement"
+"multivi","nutritional supplement"
+"multivit","nutritional supplement"
+"multivitamin","nutritional supplement"
+"multivitamins","nutritional supplement"
+"multivitamns","nutritional supplement"
+"multivits","nutritional supplement"
+"neocate","nutritional supplement"
+"nephro-vite","nutritional supplement"
+"nephrocaps","nutritional supplement"
+"nepro","nutritional supplement"
+"niacinamide","nutritional supplement"
+"nicomide","nutritional supplement"
+"novasource","nutritional supplement"
+"nutren","nutritional supplement"
+"osmolite","nutritional supplement"
+"peptamen","nutritional supplement"
+"phosphatidyl ?serine","nutritional supplement"
+"polysaccharide complex","nutritional supplement"
+"polyunsaturated fatty acids","nutritional supplement"
+"prenatal","nutritional supplement"
+"prenatal tab","nutritional supplement"
+"prenatal-s","nutritional supplement"
+"pro-stat \(sf\)","nutritional supplement"
+"pro-stat 64","nutritional supplement"
+"pro-stat awc","nutritional supplement"
+"promod","nutritional supplement"
+"promote","nutritional supplement"
+"renal caps","nutritional supplement"
+"replete liquid","nutritional supplement"
+"resource","nutritional supplement"
+"rutin","nutritional supplement"
+"sodium ascorbate","nutritional supplement"
+"sodium iodide.*crystals","nutritional supplement"
+"sodium iodide.*granules","nutritional supplement"
+"stress formula","nutritional supplement"
+"stresstabs","nutritional supplement"
+"sumalate","nutritional supplement"
+"supplement","nutritional supplement"
+"surbex","nutritional supplement"
+"surbu-gen-t","nutritional supplement"
+"syrvite","nutritional supplement"
+"thiamine","nutritional supplement"
+"tocopheryl","nutritional supplement"
+"tolerex","nutritional supplement"
+"tube feeding","nutritional supplement"
+"ubidecarenone","nutritional supplement"
+"vit a 1500unt","nutritional supplement"
+"vital 1.5 cal","nutritional supplement"
+"vital high nitrogen","nutritional supplement"
+"vital peptide","nutritional supplement"
+"vitamin","nutritional supplement"
+"vitamin e.*oil","nutritional supplement, sunburn"
+"vitamins","nutritional supplement"
+"vivonex","nutritional supplement"
+"yeast","nutritional supplement"
+"zinc [0-9 ]+mg","nutritional supplement"
+"zinc 50mg","nutritional supplement"
+"zinc gluconate","nutritional supplement"
+"zinc so4","nutritional supplement"
+"zinc sulfate","nutritional supplement"
+"sodium acetate","nutritional supplement, antibiotic"
+"pyridoxine","nutritional supplement, nausea"
+"cod liver oil","nutritional supplement, skin irritation"
+"naloxone","opioid overdose"
+"risedronate","osteoporosis"
+"teriparatide","osteoporosis"
+"contact lens","other"
+"denture cleaner","other"
+"denture cleanser","other"
+"intravenous administration","other"
+"iv admin","other"
+"sterile vial","other"
+"vial,empty","other"
+"^opium","pain relief"
+"acetaminophen","pain relief"
+"acetanilide","pain relief"
+"buprenorphine","pain relief"
+"capsacian","pain relief"
+"capsaicin","pain relief"
+"codeine phosphate","pain relief"
+"codeine po4","pain relief"
+"codeine sulf","pain relief"
+"codeine sulfate","pain relief"
+"diclofenac","pain relief"
+"eucalyptus","pain relief, sore throat"
+"fentanyl","pain relief"
+"glucosamine","pain relief"
+"histamine di","pain relief"
+"histamine dihydrochloride","pain relief"
+"hydromorphone","pain relief"
+"ketorolac","pain relief"
+"magnesium salicylate","pain relief"
+"magnesium trisalicylate","pain relief"
+"meperidine","pain relief"
+"methadone","pain relief"
+"methyl salicylate","pain relief"
+"morphine","pain relief"
+"nalbuphine","pain relief"
+"naproxen","pain relief"
+"opium 10% tincture","pain relief"
+"oxycodone","pain relief"
+"phenol.*liquid","pain relief, skin irritation"
+"piroxicam","pain relief"
+"propoxyphene","pain relief"
+"tramadol","pain relief"
+"triethanolamine","pain relief"
+"trolamine","pain relief"
+"methylparaben","paraben"
+"carbidopa","parkinsons"
+"pramipexole","parkinsons"
+"pramipexole dihydrochloride","parkinsons"
+"plasma protein","plasma"
+"propionic acid","preservative"
+"acidophilus","probiotic"
+"fructooligosaccharides","probiotic"
+"lactobacillus","probiotic"
+"probiotic","probiotic"
+"ixekizumab","psoriasis"
+"barium so4","radiopharmaceutical"
+"barium sulfate","radiopharmaceutical"
+"gallium citrate","radiopharmaceutical"
+"gallium-67 citrate","radiopharmaceutical"
+"sestamibi","radiopharmaceutical"
+"sodium iodide.*123","radiopharmaceutical"
+"tc-99m","radiopharmaceutical"
+"technetium","radiopharmaceutical"
+"technetum","radiopharmaceutical"
+"^normal saline","replacement fluids"
+"chromic chloride","replacement fluids"
+"m-trace","replacement fluids"
+"multiple trace element","replacement fluids"
+"multiple trace elements","replacement fluids"
+"normal saline 0.2","replacement fluids"
+"prismasol","replacement fluids"
+"ringers?","replacement fluids"
+"selenious","replacement fluids"
+"selenomethionine","replacement fluids"
+"sodium lactate","replacement fluids"
+"trace elements,adult","replacement fluids"
+"trace elements,pediatric","replacement fluids"
+"trace metals","replacement fluids"
+"sanitizer","sanitizer"
+"talc","sclerosing"
+"talc,sterile","sclerosing"
+"alprazolam","sedative"
+"ammonium bromide","sedative"
+"barbital","sedative"
+"butabarbital","sedative"
+"chloral hydrate","sedative"
+"clobazam","sedative"
+"clonazepam","sedative"
+"dexmedetomidine","sedative"
+"estazolam","sedative"
+"glutethimide","sedative"
+"lorazepam","sedative"
+"midazolam","sedative"
+"sodium bromide","sedative"
+"triazolam","sedative"
+"zolpidem","sedative"
+"clonidine","sedative, bp"
+"magnesium so4","seizures"
+"magnesium sulfate","seizures"
+"soap bar,sensitive skin","sensitive skin"
+"africanum","shrink prostate"
+"pygeum bark","shrink prostate"
+"oxymetazoline","sinus"
+"sinus rinse","sinus"
+"^desonide","skin irritation"
+"almond oil","skin irritation"
+"aminobenzoic","skin irritation"
+"aquaphor","skin irritation"
+"calamine","skin irritation"
+"calmoseptine","skin irritation"
+"camphor","skin irritation"
+"catnip","skin irritation"
+"clove oil","skin irritation"
+"coal tar","skin irritation"
+"cocoa butter","skin irritation"
+"cold cream","skin irritation"
+"corn starch","skin irritation"
+"domol bath","skin irritation"
+"hamamelis","skin irritation"
+"lanolin","skin irritation"
+"lubriderm","skin irritation"
+"mexsana","skin irritation"
+"moisturel","skin irritation"
+"oatmeal,colloidal","skin irritation"
+"tannic acid","skin irritation"
+"triclosan","skin irritation"
+"witch hazel","skin irritation"
+"zinc oxide","skin irritation"
+"nicotine","smoking"
+"atorvastatin","statin"
+"mometasone furoate","steriod"
+"budesonide","steroid"
+"methylprednisolone","steroid"
+"prednisolone","steroid"
+"prednisone","steroid"
+"stanozolol","steroid"
+"dexmethylphenidate","stimulant"
+"dextroamphetamine","stimulant"
+"propantheline","stomach cramps"
+"aloe.*cream","sunburn"
+"aloe vera","sunburn"
+"avobenzone","sunscreen"
+"dioxybenzone","sunscreen"
+"oxybenzone","sunscreen"
+"sunscreen","sunscreen"
+"suppository base","suppository, moisturizer"
+"beractant","surfactant"
+"sodium lauryl so4","surfactant"
+"sodium lauryl sulfate","surfactant"
+"fructose","sweetener"
+"maltodextrin","sweetener"
+"saccharin","sweetener"
+"filter needle","syringe"
+"syringe 1ml/ndl","syringe"
+"syringe 2.5-3ml","syringe"
+"syringe 2.5-3ml/ndl 22g 1in","syringe"
+"syringe 5-6ml","syringe"
+"syringe 50-60ml","syringe"
+"syringe 60ml eccentric tip","syringe"
+"syringe toomey 60ml","syringe"
+"syringe w-needle","syringe"
+"syringe, disposable","syringe"
+"xylose","test-absorption"
+"\(glucose\) test","test-glucose"
+"^lancets?","test-glucose"
+"^needles?","test-glucose, insulin"
+"accu-check","test-glucose"
+"ascensia","test-glucose"
+"contour","test-glucose"
+"disposable needle","test-glucose"
+"freestyle","test-glucose"
+"glucometer","test-glucose"
+"glucose calibration","test-glucose"
+"lancet,abbott","test-glucose"
+"lancet,unilet","test-glucose"
+"medisense","test-glucose"
+"needle disposable","test-glucose"
+"needle disposal","test-glucose"
+"needle,pen","test-glucose"
+"needles, disposable","test-glucose"
+"needles, huber disposable","test-glucose"
+"needles, safety huber","test-glucose"
+"pen needle","test-glucose"
+"sof-tact","test-glucose"
+"trueplus","test-glucose"
+"thallous chloride","test-heart"
+"ketone","test-ketone"
+"fluorescein","test-ocular"
+"lissamine green","test-ocular"
+"rose bengal","test-ocular"
+"tuberculin","test-skin"
+"romiplastim","thrombocytopenia"
+"romiplostim","thrombocytopenia"
+"aspergillus","tolerated dose"
+"sodium fluoride","tooth decay"
+"toothpaste","tooth decay"
+"trach tube","trach tube"
+"bulk chemical","unknown"
+"vehicle base","unknown"
+"cranberry extract","UTI"
+"urogesic","UTI"
+"cholera vaccine","vaccine-cholera"
+"influenza","vaccine-flu"
+"hepatitis a","vaccine-hepa"
+"haemophilus","vaccine-hib"
+"pedvax","vaccine-hib"
+"meningococcal","vaccine-meningitis"
+"meningococcal polysaccharide","vaccine-meningitis"
+"menomune","vaccine-meningitis"
+"plague vaccine","vaccine-plague"
+"rabies vac","vaccine-rabies"
+"rotavirus pentavalent","vaccine-rotavirus"
+"rotavirus tetravalent","vaccine-rotavirus"
+"bcg,tice","vaccine-tb"
+"bcg vaccine","vaccine-tb"
+"theracys","vaccine-tb"
+"pertuss","vaccine-tdap"
+"tetanus toxoid","vaccine-tetanus"
+"typhoid","vaccine-typhoid"
+"yellow fever vaccine","vaccine-yellowfever"
+"amyl nitrite","vasodilator"
+"cilostazol","vasodilator"
+"diazoxide","vasodilator"
+"epoprostenol","vasodilator"
+"isoxsuprine","vasodilator"
+"minoxidil","vasodilator"
+"nitroglycerin","vasodilator"
+"sildenafil citrate","vasodilator"
+"tadalafil","vasodilator"
+"fampridine","walking"
+"dinitrochlorobenzene","warts"
+"kunecatechins","warts"
+"podophyllin","warts"
+"podophyllum","warts"
+"sinecatechins","warts"

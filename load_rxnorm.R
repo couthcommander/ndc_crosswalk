@@ -11,11 +11,11 @@ stdz_drug <- function(x) {
 # `match` returns first match
 # name often has multiple options matching rxcui
 
-load_rxnorm <- function(sat_file, conso_file, version = 1) {
+load_rxnorm <- function(sat_file, conso_file, version = 1, src = 'VANDF') {
   sat <- fread(sat_file, sep='|', quote = '')
   sat <- sat[, .(V1, V4, V9, V10, V11, V12)]
   setnames(sat, c('RXCUI','RXAUI','ATN','SAB','ATV','SUPPRESS'))
-  sat <- sat[SAB == 'VANDF']
+  sat <- sat[SAB %in% src]
   rxcui <- unique(sat[['RXAUI']])
   if(version == 1) {
     nameOpt <- sat[ATN == 'NF_NAME']
@@ -35,7 +35,7 @@ load_rxnorm <- function(sat_file, conso_file, version = 1) {
   conso <- fread(conso_file, sep='|', quote = '')
   conso <- conso[, .(V1, V8, V12, V15)]
   setnames(conso, c('RXCUI','RXAUI','SAB','STR'))
-  strOpt <- conso[SAB == 'VANDF']
+  strOpt <- conso[SAB %in% src]
 #   strOpt <- conso[SAB == 'RXNORM']
   str <- strOpt[match(rxcui, strOpt[['RXAUI']]), STR]
 
