@@ -4,7 +4,7 @@ source('load_ndf.R')
 # rx <- load_rxnorm('RXNSAT.RRF', 'RXNCONSO.RRF')
 ## rather than load from single RXNORM data set, use `rxnorm_ndc.R` script
 rx <- read.csv('ndc_gs_xwalk.csv')
-ndf <- load_ndf('PharmacyProductSystem_NationalDrugCodeExtract.xlsx')
+ndf <- load_ndf('PharmacyProductSystem_NationalDrugCodeExtract.xlsx', skip = 2)
 
 # 10-digit vs 11-digit
 # 00000-0000-00
