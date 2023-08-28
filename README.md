@@ -2,6 +2,10 @@ This repository demonstrates a semi-reproducible method for generating a NDC-dru
 
 It *does not* reflect the most current/accurate data available from VANDF or NLM.
 
+# The crosswalk file
+
+If you're here only for the crosswalk file, you want [ndc_xwalk.csv](https://github.com/couthcommander/ndc_crosswalk/raw/main/ndc_xwalk.csv).
+
 # Data Sources
 
 ## VA National Formulary
