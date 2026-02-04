@@ -668,6 +668,7 @@ xw1 <- dat[!isDup,]
 if(length(ndc_ne)) {
   d1 <- datNDC(con, dataTable, ndc_ne)
   dup_bad <- d1[!duplicated(do.call(paste, c(d1[,c('ndc','drug')], sep = '|'))), c('ndc','drug','src')]
+  dup_fixable <- dup_bad[dup_bad[,'ndc'] %in% nomatch2,]
   badOutput(dup_bad)
 }
 goodOutput(xw1)

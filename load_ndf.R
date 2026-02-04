@@ -9,8 +9,13 @@ stdz_drug <- function(x) {
 }
 
 load_ndf <- function(ndc_file, ...) {
-  z <- readxl::read_excel(ndc_file, col_types = 'text', ...)
-  class(z) <- 'data.frame'
+  # used to be xlsx, now it's csv
+  if(grepl('xlsx$', basename(ndc_file))) {
+    z <- readxl::read_excel(ndc_file, col_types = 'text', ...)
+    class(z) <- 'data.frame'
+  } else {
+    z <- read.csv(ndc_file)
+  }
   z1 <- z[,c('NATIONAL_FORMULARY_NAME', 'GENERIC_NAME', 'VA_PRODUCT_NAME', 'VA_CLASSIFICATION_CODE', 'VA_CLASSIFICATION_DESCRIPTION', 'NDC_NUMBER')]
   z1[,'ndc'] <- stdz_ndc(z1[,'NDC_NUMBER'])
   z1[,'drug'] <- stdz_drug(z1[,'VA_PRODUCT_NAME'])
